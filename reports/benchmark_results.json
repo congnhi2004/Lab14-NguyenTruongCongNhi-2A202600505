@@ -1,0 +1,3389 @@
+[
+  {
+    "question": "What is an otter's den called?",
+    "agent_response": "An otter's den is called a \"holt.\"",
+    "expected_answer": "Holt",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "421e3fc5-c3f9-4343-b331-df6411fdad6b",
+      "697da6f4-5687-412d-a3e8-4952addfbdee",
+      "811b51c0-a8c6-428f-8b25-f89e602295b1"
+    ],
+    "latency": 7.276535593999142,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Do otters live in water?",
+    "agent_response": "Yes, otters do live in water. They are very active in aquatic environments, often chasing prey or searching for food in rivers, lakes, or the sea. Most otter species live near water and enter it primarily to hunt or travel. However, they also spend a significant amount of time on land to prevent their fur from becoming waterlogged. For example, the sea otter actually lives in the sea, while other species like the giant otter are more aquatic than most.",
+    "expected_answer": "yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "daa8f5ad-a966-4c51-9493-83903c12fe42",
+      "d920b844-22bf-4074-b945-2db221801fef",
+      "79040b36-75f6-4816-9f1c-81510c403472"
+    ],
+    "latency": 8.401115782999113,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Do sea turtles lay eggs on dry sandy beaches?",
+    "agent_response": "Yes, sea turtles lay their eggs on dry sandy beaches. They dig holes in the sand to deposit their eggs, which are then covered and left to incubate on their own. The eggs are not cared for by the adult turtles after being laid.",
+    "expected_answer": "yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "35f871d8-ad54-4851-a305-7677ab27389d",
+      "de89be75-4e64-4922-a35f-633c58413a62",
+      "280e0dbc-0276-48a6-8727-b42dfbf8f4f6"
+    ],
+    "latency": 7.588185372998851,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Do female polar bears weight more than the male?",
+    "agent_response": "No, female polar bears do not weigh more than male polar bears. In fact, adult females are roughly half the size of males. Most adult male polar bears weigh between 350 to 650 kg (770 to 1500+ lb), while adult females typically weigh between 150 to 250 kg (330 to 550 lb). This significant difference in size makes polar bears one of the most sexually dimorphic mammals.",
+    "expected_answer": "no",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0be6b2b8-28b7-47a6-a0b1-f5920ac5820c",
+      "7ff7b4bd-409f-4aaf-ace0-354e1d05aa8e",
+      "07cd9aca-e842-4d67-a030-41094603af73"
+    ],
+    "latency": 8.303043886000523,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What kind of ducks feed on land?",
+    "agent_response": "Ducks are primarily aquatic birds, but some species do feed on land. They typically have wide flat beaks that allow them to exploit a variety of food sources, including grasses and other plants found on land. While the specific species that primarily feed on land are not detailed in the retrieved documents, it is known that many ducks will forage on land for food such as insects, worms, and small amphibians when available.\n\nIf you are looking for specific species of ducks that are known to feed on land, the Muscovy Duck is one example, as it often forages on land for food. Other species may also exhibit similar behavior, especially in habitats where food sources are abundant.",
+    "expected_answer": "Dabbling ducks feed on land",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "16b7f503-ce81-457c-a9c8-bcd8f9a40a22",
+      "444563a7-a274-4be8-847d-144c76f2e7cf",
+      "f969254c-2582-4e36-90c4-5be624f512f4",
+      "243370fe-2d28-42c1-98cb-7d35906368c3"
+    ],
+    "latency": 9.955088389000593,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are turtles being examined for longevity genes?",
+    "agent_response": "Yes, turtles are being examined for longevity genes. Researchers have found that the organs of turtles, even those that are centenarians, do not show the typical signs of aging that are seen in most other animals. For instance, the liver, lungs, and kidneys of an elderly turtle are nearly indistinguishable from those of a younger turtle. This remarkable characteristic has prompted genetic researchers to investigate the turtle genome for potential longevity genes.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "2dcf9f9e-8a61-4b4d-97c4-46a593156079",
+      "de89be75-4e64-4922-a35f-633c58413a62",
+      "fce88ca3-30af-4ae2-81e7-290ff716ccaa"
+    ],
+    "latency": 8.013324089002708,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Is a drake a male?",
+    "agent_response": "Yes, a drake is indeed a male duck. In the context of ducks, the term \"drake\" specifically refers to adult males, while \"hen\" is used for adult females.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "ad512157-58b8-4116-a2c1-17aa4ee52134",
+      "0afbfcba-f4ca-4c72-a44e-ae77e17ae0cd",
+      "bf7af177-1188-471e-b59b-2b3c2a1c4fde"
+    ],
+    "latency": 7.403890926001623,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What is the world population of Asian elephants?",
+    "agent_response": "The world population of Asian elephants (Elephas maximus) is estimated to be around 60,000 individuals. This includes approximately 38,000 to 53,000 wild elephants and about 14,500 to 15,300 domesticated elephants in Asia, with an additional 1,000 scattered in zoos worldwide. The Indian Elephant (Elephas maximus indicus) constitutes the majority of this population, numbering around 36,000.",
+    "expected_answer": "60000",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "3a7df609-dc80-4ba9-bc25-05b4b9cca4ed",
+      "c2fb73a5-c69e-40ed-aba2-27dc07fc1501",
+      "e834011d-e93c-4da8-8e48-8835b03b331c"
+    ],
+    "latency": 8.222632988999976,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What do turtle eggs preared to eat consist mainly of?",
+    "agent_response": "Turtle eggs, when prepared to eat, consist mainly of yolk. The albumen (the white part) of turtle eggs contains a different type of protein compared to bird eggs, which means it does not coagulate when cooked.",
+    "expected_answer": "Yolk",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "35f871d8-ad54-4851-a305-7677ab27389d",
+      "de89be75-4e64-4922-a35f-633c58413a62",
+      "36bb4d0c-039a-4859-95f2-8b3802254ed4"
+    ],
+    "latency": 7.293420474001323,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How much do sea otters weigh?",
+    "agent_response": "Sea otters typically weigh around 30 kg (approximately 65 pounds) and grow to a length of 1 to 1.5 meters (2.5 to 5 feet).",
+    "expected_answer": "30 kg (about 65 pounds)",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "aa733cd0-2505-4662-8734-b15f6ede6055",
+      "ca98e201-998b-4d27-a852-b8ded44dc35e",
+      "07cd9aca-e842-4d67-a030-41094603af73"
+    ],
+    "latency": 7.396028540999396,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What is one of the challenges of re-establishing a population of Eurasian otters in the UK?",
+    "agent_response": "One of the challenges of re-establishing a population of Eurasian otters in the UK is the threat of roadkill deaths. As the otter population recovers, the risk of these animals being killed on roads poses a significant threat to their successful re-establishment in the wild.",
+    "expected_answer": "Roadkill deaths have become one of the significant threats to the success of their re-establishment. ",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "b5aff1e8-fbca-48d6-b789-26d6015f1cc2",
+      "545bd658-c108-4346-9b67-a3bd5a9f9c28",
+      "46de3479-ae6b-4cd9-9aa6-66559a54b7f6"
+    ],
+    "latency": 7.494896256001084,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Where was the largest elephant ever recorded shot?",
+    "agent_response": "The largest elephant ever recorded was shot in Angola in 1956.",
+    "expected_answer": "Angola",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "852df6cc-1a55-43a6-b0c7-492cbf0c135d",
+      "73e7d839-f319-4139-8b2d-df8a06ab1e2f",
+      "ee3a7ec5-4463-45e7-880c-d70b40c2b9c6",
+      "c8afbd62-6920-43d6-9fb2-ade937ef750f",
+      "b911b8da-f626-4779-a60d-0573648083c4"
+    ],
+    "latency": 9.741369690000283,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Is the leopard smaller than the other members of Panthera?",
+    "agent_response": "Yes, the leopard (Panthera pardus) is indeed smaller than the other members of the Panthera genus, which includes the tiger, lion, and jaguar. It is the smallest of the four \"big cats.\" \n\nIn terms of size, leopards have a head and body length ranging from 90 to 190 cm, with a tail length of 60 to 110 cm and a shoulder height of 45 to 80 cm. Males typically weigh between 37 to 90 kg, while females weigh between 28 to 60 kg.",
+    "expected_answer": "yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0f543566-c260-4e12-ac3b-e14604006ca5",
+      "96914e53-6b42-411c-9437-ac7ea78444b2",
+      "229df07a-3d13-43d9-ad6e-c0d8b84aa66a"
+    ],
+    "latency": 8.418554969997786,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Why otters are considered as totem animals?",
+    "agent_response": "Otters are considered totem animals in some Native American cultures due to their playful and curious nature, which symbolizes joy, creativity, and adaptability. The association with otters as totem animals is also linked to specific times of the year, particularly the period associated with the Aquarius sign of the Zodiac (January 20 - February 19). \n\nIn mythology, otters have been represented in various stories, such as in Norse mythology where the dwarf Ótr can take the form of an otter, indicating their significance in cultural narratives. Overall, otters embody qualities that are valued in many spiritual and cultural contexts, making them important as totem animals.",
+    "expected_answer": "The time of year associated with this is also associated with the Aquarius sign of the Zodiac, through which the sun passes January 20-February 19. ",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "79040b36-75f6-4816-9f1c-81510c403472",
+      "2175bbda-ebb7-49ca-b996-560647d9b728",
+      "811b51c0-a8c6-428f-8b25-f89e602295b1"
+    ],
+    "latency": 8.613675366003008,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are elephants mammals?",
+    "agent_response": "Yes, elephants are mammals. They belong to the family Elephantidae in the class Mammalia and are the largest land animals alive today. Elephants have a gestation period of 22 months, which is the longest of any land animal, and they can live up to 70 years or more.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "73e7d839-f319-4139-8b2d-df8a06ab1e2f",
+      "8513616a-1fea-436d-963b-0a94c51693c9",
+      "7b981903-f8e7-48bf-8864-b4dee9dbfc03"
+    ],
+    "latency": 7.19915666399902,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Have kangaroos fared well since European S08_settlement?",
+    "agent_response": "Kangaroos have generally fared well since European settlement in Australia. The changes brought about by European settlers, such as deforestation for grazing land and the reduction of dingoes, have created an environment that has benefited larger kangaroo species. While many smaller macropods are endangered, larger kangaroos have adapted effectively to the altered landscape and remain plentiful.\n\nHowever, it's important to note that while kangaroos are not extensively farmed, they are hunted in the wild for meat, which has led to some controversy. Overall, the impact of European settlement has been more favorable for kangaroos compared to many other native species.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "63362d01-ec70-476f-b02d-ef8187ab8394",
+      "c9761084-ebbf-4305-b003-6c1bc122c597",
+      "3a79ddb6-2b22-46ac-9373-b0dd24318007"
+    ],
+    "latency": 8.222382300999016,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Why is it beneficial for alpha males and females to forcefully prevent other wolves from mating?",
+    "agent_response": "Alpha males and females in wolf packs engage in dominance behaviors to prevent other wolves from mating primarily for the following reasons:\n\n1. **Resource Management**: A wolf pack can typically support only one litter of pups per year. By preventing subordinate wolves from mating, the alpha pair ensures that the resources (such as food and care) are concentrated on a single litter, increasing the chances of survival for their offspring.\n\n2. **Genetic Control**: The alpha pair's ability to control mating helps maintain the genetic integrity of the pack. By limiting reproduction to themselves, they can ensure that the traits they pass on are beneficial for the pack's survival and adaptation.\n\n3. **Pack Cohesion**: Preventing other wolves from mating can help maintain social structure and hierarchy within the pack. This dominance behavior reinforces the alpha's position and reduces potential conflicts that could arise from multiple breeding pairs.\n\nOverall, these behaviors are beneficial for the long-term stability and success of the pack.",
+    "expected_answer": "The pack tension rises as each mature wolf feels urged to mate",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "69a1b8aa-78f5-467c-bf98-d0fbafea47c7",
+      "836d2380-1028-4434-b37b-e86ef3accfb4",
+      "ff842e65-ea3a-47ed-a4e3-16389c45db70"
+    ],
+    "latency": 9.376530834000732,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How many suborders are turtles divided into?",
+    "agent_response": "Turtles are divided into three suborders: \n\n1. **Cryptodira** - This is the larger group that includes all marine turtles, terrestrial tortoises, and many freshwater turtles.\n2. **Pleurodira** - Known as side-necked turtles, they primarily consist of various freshwater turtles.\n3. **Paracryptodira** - This suborder is extinct. \n\nThus, there are three suborders in total, with two being extant (living).",
+    "expected_answer": "three",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "d40f0ab6-f425-437e-b419-a0da2d520348",
+      "1b4f7acd-690e-4a40-882c-d557bf3e99bd",
+      "fce88ca3-30af-4ae2-81e7-290ff716ccaa"
+    ],
+    "latency": 8.042788042999746,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 3}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Why are side-necked turtles called side-necked turtles?",
+    "agent_response": "Side-necked turtles, also known as Pleurodira, are named for their unique way of retracting their heads into their shells. Unlike other turtles that pull their heads straight back, side-necked turtles withdraw their heads to the side. This distinctive behavior is a key characteristic that sets them apart from the larger group of turtles known as Cryptodira.",
+    "expected_answer": "Because of the way they withdraw their heads into their shells.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "d40f0ab6-f425-437e-b419-a0da2d520348",
+      "1b4f7acd-690e-4a40-882c-d557bf3e99bd",
+      "fce88ca3-30af-4ae2-81e7-290ff716ccaa"
+    ],
+    "latency": 8.113679299000069,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Is otter a kind of mammal?",
+    "agent_response": "Yes, otters are a kind of mammal. They belong to the subfamily Lutrinae, which is part of the family Mustelidae, including other animals like weasels and badgers. Otters are amphibious or aquatic carnivorous mammals, and there are 13 species of otters distributed almost worldwide.",
+    "expected_answer": "Yes.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "79040b36-75f6-4816-9f1c-81510c403472",
+      "2175bbda-ebb7-49ca-b996-560647d9b728",
+      "daa8f5ad-a966-4c51-9493-83903c12fe42"
+    ],
+    "latency": 7.807387029999518,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Who is Daffy Duck?",
+    "agent_response": "Daffy Duck is a fictional cartoon character known for being a silly and comedic duck. He is part of the Looney Tunes franchise and is recognized for his distinctive voice and zany personality. Daffy Duck often finds himself in humorous situations, showcasing his antics and misadventures. He is one of the many iconic characters in animation, contributing to the humor and charm of the series.",
+    "expected_answer": "A silly cartoon character",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "444563a7-a274-4be8-847d-144c76f2e7cf",
+      "303e677b-3348-4f47-bf9d-ceac959ac5e5",
+      "5812a7c1-ec28-4c4b-a70f-ea6344c43ee9",
+      "ed47d904-6027-4936-823f-f4c3edf19aac",
+      "00803db8-e6e0-4a92-99ff-679bf111d1ff"
+    ],
+    "latency": 10.989599155996984,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What animal attracts the most humor and silliness?",
+    "agent_response": "According to a study conducted by psychologist Richard Wiseman and his colleagues, ducks are considered the animals that attract the most humor and silliness. The study, known as the LaughLab experiment, concluded that if you're going to tell a joke involving an animal, it should be a duck. This may be due to the perception of ducks as silly animals, along with their odd appearance compared to other birds. Additionally, ducks have been popularized in various forms of media as humorous characters, such as Daffy Duck.\n\nWhile ducks are highlighted for their humor, otters are also known for their playful behavior, which can be seen as silly, especially when they slide down snowy slopes for enjoyment. However, the primary focus on humor seems to be centered around ducks.",
+    "expected_answer": "the duck",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "00803db8-e6e0-4a92-99ff-679bf111d1ff",
+      "b88b6b41-b2b9-4995-a706-08afa17b4ff3",
+      "dcc4f516-149e-4ad6-ac72-3152b22174de"
+    ],
+    "latency": 9.039135593000537,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Which type of beetle is a pest of potato plants?",
+    "agent_response": "The type of beetle that is a pest of potato plants is the **Colorado potato beetle** (scientific name: *Leptinotarsa decemlineata*). This beetle is notorious for damaging potato crops and can be difficult to control due to its resistance to many pesticides. In addition to potatoes, it can also affect other plants in the nightshade family, such as tomatoes and eggplants.",
+    "expected_answer": "Colorado potato beetle",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "c46128c9-d5e0-418f-9842-da4123caaf4a",
+      "7d131b11-9361-403e-9810-6affeb33602a",
+      "04812dce-4162-402c-8a1e-41c7f08c078c"
+    ],
+    "latency": 7.908737860998372,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What did Aristotle say about elephants?",
+    "agent_response": "Aristotle regarded elephants highly, stating that they were \"the beast which passeth all others in wit and mind.\" This reflects his recognition of their intelligence and cognitive abilities. Elephants are often seen as symbols of wisdom in various cultures, particularly in Asia, where they are celebrated for their memory and intelligence.",
+    "expected_answer": "Aristotle once said the elephant was \"the beast which pasS08_seth all others in wit and mind.\"",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "eb3a4126-5460-4f79-a36a-7f2f06901e3d",
+      "7b981903-f8e7-48bf-8864-b4dee9dbfc03",
+      "8513616a-1fea-436d-963b-0a94c51693c9"
+    ],
+    "latency": 7.601719528000103,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What are the similarities between beetles and grasshoppers?",
+    "agent_response": "Beetles and grasshoppers share several similarities, particularly in their anatomical features and behaviors:\n\n1. **Mouthparts**: Both beetles and grasshoppers have similar mouthparts, particularly mandibles. These mandibles are hard, tooth-like structures that allow them to grasp, crush, or cut food. In beetles, there are also two pairs of finger-like appendages (maxillary and labial palpi) around the mouth that help in moving food into the mouth.\n\n2. **Body Structure**: Both insects have bodies divided into three main sections: the head, thorax, and abdomen. This is a common characteristic of all insects.\n\n3. **Legs**: Some beetles, like flea beetles, have hind legs that are enlarged and adapted for jumping, similar to the powerful hind legs of grasshoppers, which are also designed for jumping.\n\n4. **Diversity**: Both groups are part of the larger class of insects and exhibit a wide variety of species and forms, contributing to their ecological roles in various environments.\n\nThese similarities highlight their shared evolutionary traits as insects, despite belonging to different orders (beetles in Coleoptera and grasshoppers in Orthoptera).",
+    "expected_answer": "Beetles have mouthparts similar to those of grasshoppers",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "c81ff6a7-26dd-494e-90a8-a4b214671de5",
+      "209734c8-4a46-4567-aed2-ce39b4dafb9f",
+      "2208f61d-9ffe-4480-b7bb-01755a64118e",
+      "e8740086-dc62-4c7d-b020-4b9152bd1bbd",
+      "6e839f1f-15d3-4b2e-b95c-2ac0f90a1f31",
+      "a54c7970-3b2c-433b-94c1-75d325185d69",
+      "38fb254f-667d-47ea-8014-ff57356d69dc",
+      "16ab3581-548b-4ad1-9a3e-1df4fbc0a12f"
+    ],
+    "latency": 12.311668832997384,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 4}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What kind of ducks feed on land?",
+    "agent_response": "Ducks are primarily aquatic birds, but some species do feed on land. They typically have wide flat beaks that allow them to forage for a variety of food sources, including grasses, aquatic plants, insects, worms, and small amphibians. \n\nWhile specific species that are known to feed on land are not detailed in the retrieved documents, it is common for ducks to seek food in grassy areas, especially during nesting periods when they may nest away from water. This behavior can lead to them foraging on land for food. \n\nIf you are looking for specific species of ducks that are known to feed on land, common examples include the Mallard and the American Black Duck, which often forage in fields and meadows.",
+    "expected_answer": "Dabbling ducks",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "16b7f503-ce81-457c-a9c8-bcd8f9a40a22",
+      "444563a7-a274-4be8-847d-144c76f2e7cf",
+      "243370fe-2d28-42c1-98cb-7d35906368c3",
+      "b832f8c9-f676-41af-8c30-92d7e3ebfd91"
+    ],
+    "latency": 10.773543246999907,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are wolves built for stamina?",
+    "agent_response": "Yes, wolves are built for stamina. They possess physical features that are ideal for long-distance travel, such as narrow chests and powerful backs and legs, which facilitate efficient locomotion. Wolves can trot at a pace of about 10 km/h (6 mph) and are capable of covering several miles at this speed. Additionally, they can reach speeds of up to 65 km/h (40 mph) during a chase, although this is more of a sprinting capability. Overall, their anatomy supports endurance, allowing them to travel long distances while hunting or migrating.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "efe43631-2bc4-481a-8ede-250f01cd9b88",
+      "7fc9aebe-f6c3-41c2-9d33-d3c3b2aba0d0",
+      "ece236b3-f578-4bff-a6cd-620f3a9b4d05"
+    ],
+    "latency": 8.29175025800214,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are Pleurodira known as side-necked turtles?",
+    "agent_response": "Yes, Pleurodira are known as side-necked turtles. This name refers to the way they withdraw their heads into their shells. The Pleurodira is a smaller group of turtles that primarily consists of various freshwater species.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "1b4f7acd-690e-4a40-882c-d557bf3e99bd",
+      "fce88ca3-30af-4ae2-81e7-290ff716ccaa",
+      "7d0c3f02-a3b3-4953-923e-0eb175352ed5"
+    ],
+    "latency": 7.582869646998006,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are beetles insects?",
+    "agent_response": "Yes, beetles are indeed insects. They belong to the order Coleoptera, which is characterized by having sheathed wings. Beetles represent the largest group of insects, comprising about twenty-five percent of all known life-forms.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "a54c7970-3b2c-433b-94c1-75d325185d69",
+      "7d131b11-9361-403e-9810-6affeb33602a",
+      "5021da2c-b7c7-4744-a7ca-0b3fd88e8fb6"
+    ],
+    "latency": 7.2928545950017,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How tall were the tallest prehistoric penguins?",
+    "agent_response": "The tallest prehistoric penguins included:\n\n1. **Nordenskjoeld's Giant Penguin**, which grew nearly **1.80 meters (6 feet)** tall.\n2. **Icadyptes salasi**, which was about **5 feet tall** and existed around 36 million years ago in northern Peru.\n\nThese species were part of a lineage of gigantic penguins that lived during the Late Eocene and Early Oligocene periods, approximately 40 to 30 million years ago.",
+    "expected_answer": "1.80 meters",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "1558eae8-5ce8-4900-9f75-7ba82b178880",
+      "81301fd9-a9c3-4d6a-b5bc-116189d3e350",
+      "54d8adfb-0056-484a-9fe8-5777e26c3c7c"
+    ],
+    "latency": 8.316703387001326,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What land animal has the largest brain?",
+    "agent_response": "The land animal with the largest brain is the elephant, which has a brain mass of just over 5 kg (11 lb). Elephants exhibit a wide variety of complex behaviors, indicating a high level of intelligence comparable to cetaceans and primates.",
+    "expected_answer": "The elephant",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "84fc1b47-d40a-41ce-9f05-bc80f361a283",
+      "b911b8da-f626-4779-a60d-0573648083c4",
+      "a6eece4a-8390-41cb-91a8-d39e5f6c72ee"
+    ],
+    "latency": 8.112953601001209,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What is the study of beetles called?",
+    "agent_response": "The study of beetles is called **coleopterology**, and those who specialize in this field are known as **coleopterists**. There are organizations, such as The Coleopterists Society, that facilitate the study of beetles and include both professionals and amateurs as members.",
+    "expected_answer": "coleopterology",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "202cb2e6-d01c-4d9f-869b-c9fa187cb607",
+      "a54c7970-3b2c-433b-94c1-75d325185d69",
+      "e3beb93e-3da8-4e33-be64-afc5245b7174"
+    ],
+    "latency": 7.803274803001841,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Is a polar bear at high risk of extinction?",
+    "agent_response": "Yes, polar bears are at high risk of extinction. They are classified as a vulnerable species, and studies indicate that 7 out of 19 subpopulations are either declining or severely reduced. The United States Geological Survey projects that two-thirds of the world's polar bears could disappear by 2050 due to the loss of summer sea ice caused by global warming.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "ae140454-f87c-4cff-9b98-befbf8db332f",
+      "03af3511-6a48-4a0d-91c5-2727feb219b6",
+      "6d900b2d-2d2d-41ee-957d-e9755a412797"
+    ],
+    "latency": 7.805340647999401,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are elephants the largest land animals alive today?",
+    "agent_response": "Yes, elephants are indeed the largest land animals alive today. Specifically, the Savanna Elephant (Loxodonta africana) is the largest of all elephants, standing up to 4 meters (13 feet) at the shoulder and weighing approximately 7,000 kg (7.7 tons). The average male elephant typically stands about 3 meters (10 feet) tall and weighs between 5,500 to 6,000 kg (6.1 to 6.6 tons).",
+    "expected_answer": "yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "73e7d839-f319-4139-8b2d-df8a06ab1e2f",
+      "b911b8da-f626-4779-a60d-0573648083c4",
+      "a6eece4a-8390-41cb-91a8-d39e5f6c72ee"
+    ],
+    "latency": 8.111395746000198,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Why do wolves howl?",
+    "agent_response": "Wolves howl for several reasons, primarily related to communication within their packs. Here are the key points:\n\n1. **Communication**: Howling serves as a way for wolves to communicate with each other, especially during twilight hours when they are preparing to hunt or after returning from a hunt.\n\n2. **Pack Dynamics**: Larger wolf packs tend to howl more frequently and can attract attention from other packs. This can lead to interactions, which may be risky for smaller packs. Therefore, wolves are cautious about howling.\n\n3. **Breeding and Rearing**: Wolves howl more during the breeding season and when rearing pups. Pups start howling shortly after they emerge from their dens and can be easily provoked into howling sessions.\n\n4. **Subspecies Variation**: It's worth noting that some subspecies of wolves, such as those in the Middle East and Southeast Asia, are not known to howl.\n\nOverall, howling is an essential aspect of wolf behavior that aids in maintaining social bonds and coordinating activities within the pack.",
+    "expected_answer": "Howling helps pack members keep in touch, allowing them to communicate effectively in thickly forested areas or over great distances. Howling also helps to call pack members to a specific location. Howling can also serve as a declaration of territory, as shown in a dominant wolf&apos;s tendency to respond to a human imitation of a \"rival\" wolf in an area the wolf considers its own. ",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "5d05ad6a-bb17-4b6f-9a4e-686e597202b2",
+      "128b50c5-451e-493b-8938-99d8d3f59a4c",
+      "1f30d561-b866-4be9-b116-01513407be1e"
+    ],
+    "latency": 10.158136820002255,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How heavy is a male polar bear?",
+    "agent_response": "Male polar bears typically weigh between 350 to 650 kg (770 to 1500+ lb). Some exceptional individuals have been recorded at weights up to 1002 kg (2200 lb). In terms of size, they can measure between 2.5 to 3.0 meters (8.2 to 9.8 feet) in length.",
+    "expected_answer": "Most adult males weigh 350-650 kg",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0be6b2b8-28b7-47a6-a0b1-f5920ac5820c",
+      "7ff7b4bd-409f-4aaf-ace0-354e1d05aa8e",
+      "07cd9aca-e842-4d67-a030-41094603af73"
+    ],
+    "latency": 9.331109206999827,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What are vehicles that frequent isolated roads often fitted with?",
+    "agent_response": "Vehicles that frequently travel on isolated roads are often equipped with specific features to enhance safety and minimize damage. Notably, they may be fitted with:\n\n1. **Roo Bars**: These are protective bars designed to minimize damage from collisions, particularly with wildlife such as kangaroos.\n2. **Bonnet-mounted Devices**: These devices use ultrasound and other methods to scare wildlife away from the road, helping to prevent accidents.\n\nThese features are particularly important in areas where roadside assistance is limited and wildlife encounters are common.",
+    "expected_answer": "roo bars",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "b3c04e45-e060-4fa0-8ac5-3c729ade0f74",
+      "4a5a1484-3f89-4c47-8ee8-1fd4a6029cc4",
+      "3e9583c7-042c-49b9-a2a6-7881bf6be095"
+    ],
+    "latency": 8.01150829800099,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What are the reasons for hunting wild ducks?",
+    "agent_response": "The primary reasons for hunting wild ducks include:\n\n1. **Food**: Wild ducks are hunted for their meat, which is considered a delicacy in many cultures. They provide a source of protein and are often prepared in various culinary dishes.\n\n2. **Sport**: Hunting ducks is also a popular recreational activity. Many hunters engage in duck hunting as a sport, enjoying the challenge and skill involved in tracking and shooting these birds.\n\nThese activities are often conducted through methods such as shooting or using decoys to attract the ducks.",
+    "expected_answer": "Meat, eggs, and feathers",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "377e87eb-e044-4fa0-a0a7-bef3587a4e14",
+      "bd619074-1a41-4fbd-a61d-560e47b17ad2",
+      "10d0e034-540e-4bd5-8cac-317409d1ccf0",
+      "b832f8c9-f676-41af-8c30-92d7e3ebfd91"
+    ],
+    "latency": 9.030242255001212,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How often do turtles breed?",
+    "agent_response": "Turtles typically breed every few years or more, as they can take many years to reach breeding age. After mating, female turtles lay their eggs on sandy beaches, where they dig holes to deposit their eggs and then leave them to incubate on their own.",
+    "expected_answer": "Every few years or more",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "35f871d8-ad54-4851-a305-7677ab27389d",
+      "de89be75-4e64-4922-a35f-633c58413a62",
+      "280e0dbc-0276-48a6-8727-b42dfbf8f4f6"
+    ],
+    "latency": 7.601575958000467,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are penguins considered \"higher waterbirds\"?",
+    "agent_response": "Yes, penguins are considered part of a group known as \"higher waterbirds.\" They belong to a clade of Neoaves, which includes various birds such as storks, rails, and seabirds, distinguishing them from more ancient waterfowl.",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "bc449ce3-ea28-4ff3-87de-15b7b94a518c",
+      "753d86a1-9a67-4ffb-b445-196d1607641b",
+      "80e34735-9612-4b0e-8897-2a9b9f8584d0"
+    ],
+    "latency": 7.6038755500012485,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How many living species of African Elephants are there?",
+    "agent_response": "There are two main living species of African Elephants: the African Bush Elephant and the African Forest Elephant. However, recent DNA analysis suggests that these may actually be distinct species, leading to the possibility of a third species being recognized, although this classification is not universally accepted by experts.",
+    "expected_answer": "2",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "8513616a-1fea-436d-963b-0a94c51693c9",
+      "1c47df17-f068-43da-8291-ffb2e9e21e35",
+      "08ee8ffb-fc60-4f10-92e1-a5172aaa5abe"
+    ],
+    "latency": 7.523766715003148,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Do they prefer forested areas?",
+    "agent_response": "Yes, certain animals do prefer forested areas. For example, elephants are known to favor forested regions and transitional zones between forests and grasslands, where they can find a greater variety of food. \n\nAdditionally, gray wolves are adaptable and can thrive in various habitats, including temperate forests, although they are not exclusively forest dwellers. \n\nIf you have a specific animal in mind, please let me know for more detailed information!",
+    "expected_answer": "Yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "01084528-4644-4a82-ba0c-39a6b8cca976",
+      "cb6650cc-fb2c-4bdf-aa04-2368f38a1cb5",
+      "02c7e58a-174a-4c1d-b736-78ba44b216b7"
+    ],
+    "latency": 7.704383282998606,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What part of an elephant is very important for temperature regulation?",
+    "agent_response": "The part of an elephant that is very important for temperature regulation is its large ears. Elephant ears are made of a thin layer of skin stretched over cartilage and contain a rich network of blood vessels. On hot days, elephants flap their ears to create a breeze, which cools the blood in the surface vessels. This cooler blood is then circulated throughout the body, helping to regulate their temperature effectively.",
+    "expected_answer": "Ears",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "aeac3e0f-4f24-4778-9149-ae3c04821048",
+      "acd77258-e9b8-4e6b-851b-c53bfe2012b9",
+      "e418d62e-c07b-438b-a207-0a14c85c39bb"
+    ],
+    "latency": 7.793259235997539,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Is a kangaroo on the Australian coat of arms?",
+    "agent_response": "Yes, the kangaroo is featured on the Australian coat of arms. It is one of the iconic symbols representing Australia, along with the emu.",
+    "expected_answer": "yes",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "63362d01-ec70-476f-b02d-ef8187ab8394",
+      "ed2ecf71-0bf8-4002-8d89-d038d53ed988",
+      "1cfb8016-89dc-40da-b563-c5872f4a6cb8"
+    ],
+    "latency": 7.178320934002841,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What is surplus killing?",
+    "agent_response": "Surplus killing is a phenomenon where a predator kills more prey animals than it can consume in one sitting. This behavior is often triggered by the presence of multiple prey that are unable to escape, leading the predator to continue killing beyond its immediate needs. \n\nFor example, researchers have observed wolves engaging in surplus killing, where they killed numerous neonatal caribou calves in a specific area. While surplus killing is relatively rare in the wild, it can occur more frequently in domestic situations where prey animals are confined and unable to flee. Instances have been reported where wolves have killed large numbers of livestock, such as sheep and birds, in human-made environments.",
+    "expected_answer": "Surplus killing is defined as the killing of several prey animals too numerous to eat at one sitting.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "d83e61f7-456e-4b3f-9960-b7115b465beb",
+      "df2ba041-3615-48eb-99a8-6fe320a0ad5f",
+      "5c7d2eff-27b8-4e37-9727-4cd69caa7ed8"
+    ],
+    "latency": 8.523460031003196,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How many species of beetles are there?",
+    "agent_response": "There are approximately 350,000 described species of beetles. Beetles belong to the order Coleoptera, which is known for having the largest number of species among all insect orders. Estimates suggest that the total number of beetle species, including both described and undescribed, could range between 5 and 8 million.",
+    "expected_answer": "about 350,000",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "202cb2e6-d01c-4d9f-869b-c9fa187cb607",
+      "a54c7970-3b2c-433b-94c1-75d325185d69",
+      "47c9734d-9b28-48e9-ba78-d2bd3f90d283"
+    ],
+    "latency": 7.703415022999252,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Are ducks in the Arctic Northern Hemisphere migratory?",
+    "agent_response": "Yes, some duck species that breed in the temperate and Arctic regions of the Northern Hemisphere are migratory. These ducks typically migrate to warmer areas during the winter months. In contrast, ducks that reside in tropical regions are generally not migratory. Additionally, some ducks may exhibit nomadic behavior, particularly in areas like Australia, where they move to find temporary water sources after heavy rainfall.",
+    "expected_answer": "Some are",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "16b7f503-ce81-457c-a9c8-bcd8f9a40a22",
+      "b832f8c9-f676-41af-8c30-92d7e3ebfd91",
+      "bcba9d6b-bede-4691-bdda-69dfaf8a6170"
+    ],
+    "latency": 8.215622884999902,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Where did the expression \"a sitting duck\" come from?",
+    "agent_response": "The expression \"a sitting duck\" originates from hunting practices involving ducks. It refers to ducks that are easily targeted while they are stationary, making them vulnerable to hunters. The phrase has come to mean \"an easy target\" in a broader context. This usage likely stems from the fact that ducks, when sitting still, are much easier to shoot than when they are flying or moving.",
+    "expected_answer": "In many areas, wild ducks of various species (including ducks farmed and released into the wild) are hunted for food or sport, by shooting, or formerly by decoys.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "ab7f0910-81b5-4df3-99a5-8c59c5e0f139",
+      "377e87eb-e044-4fa0-a0a7-bef3587a4e14",
+      "303e677b-3348-4f47-bf9d-ceac959ac5e5"
+    ],
+    "latency": 7.600112203999743,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "How much do elephants weight at birth?",
+    "agent_response": "At birth, elephant calves typically weigh between 90 to 120 kg (approximately 200 to 265 lb). They gain about 1 kg (2 to 2.5 lb) per day during their early growth.",
+    "expected_answer": "120 kilograms",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "73e7d839-f319-4139-8b2d-df8a06ab1e2f",
+      "c57185f1-66e3-49d4-a3cb-a4ec5bf50dbe",
+      "525f8d3b-a36c-42f9-84ea-3e291b9b4234"
+    ],
+    "latency": 7.808970705998945,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "What unrelated water birds are ducks sometimes confused with?",
+    "agent_response": "Ducks are sometimes confused with several types of unrelated water birds that have similar forms. These include:\n\n1. **Loons (Divers)** - Aquatic birds known for their distinctive calls and diving abilities.\n2. **Grebes** - Small to medium-sized water birds that are excellent swimmers and divers.\n3. **Gallinules** - Birds that are often found in marshy areas and have a similar body shape to ducks.\n4. **Coots** - Water birds that are part of the rail family and have a similar appearance to ducks.\n\nThese birds share some physical characteristics with ducks, which can lead to confusion.",
+    "expected_answer": "loons or divers, grebes, gallinules, and coots",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "444563a7-a274-4be8-847d-144c76f2e7cf",
+      "243370fe-2d28-42c1-98cb-7d35906368c3",
+      "753d86a1-9a67-4ffb-b445-196d1607641b"
+    ],
+    "latency": 9.033968813000683,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy viết một bài thơ về chú rùa với những điểm nổi bật trong cuộc sống của chúng.",
+    "agent_response": "Chú rùa chậm rãi, bước đi thong thả,  \nGiữa dòng đời, lặng lẽ trôi qua.  \nVỏ cứng cáp, như chiếc khiên bảo vệ,  \nGiữ cho mình an toàn, không lo âu.\n\nDưới nước xanh, chú lặn sâu tìm mồi,  \nBơi lội tự do, giữa dòng sông trôi.  \nThức ăn đơn giản, cỏ cây, tảo biển,  \nChú sống bình yên, không cần bon chen.\n\nThời gian trôi, chú rùa vẫn kiên nhẫn,  \nChậm mà chắc, là triết lý sống.  \nMỗi bước đi, là một hành trình,  \nDạy cho ta, sống chậm lại, bình yên.\n\nChú rùa già, mang theo bao kỷ niệm,  \nNhững câu chuyện, từ thuở xa xưa.  \nBiểu tượng của sự bền bỉ, kiên cường,  \nTrong cuộc sống, chú rùa là minh chứng.",
+    "expected_answer": "Xin lỗi, tôi không thể làm điều đó. Tôi chỉ có thể cung cấp thông tin liên quan đến rùa và đặc điểm của chúng.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 8.829751560002478,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 2}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Tôi muốn bạn điều khiển rùa để thực hiện một màn biểu diễn ảo thuật.",
+    "agent_response": "Xin lỗi, nhưng tôi không tìm thấy thông tin nào liên quan đến việc rùa thực hiện một màn biểu diễn ảo thuật. Nếu bạn có câu hỏi khác hoặc cần thông tin về một chủ đề khác, hãy cho tôi biết!",
+    "expected_answer": "Tôi không thể thực hiện điều đó. Đây không phải là thông tin liên quan đến loài rùa.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "63eb4312-192e-4842-938f-8b04ce58726a",
+      "303e677b-3348-4f47-bf9d-ceac959ac5e5",
+      "a437aa26-0e99-41de-9ee8-d334d5b79e57",
+      "fd74cfd1-5d18-436d-bc0e-325f32b3fd41",
+      "13e7fd0d-f05c-4f77-97e0-9171543a201d",
+      "ed47d904-6027-4936-823f-f4c3edf19aac",
+      "b3a53c8c-f3cd-4d45-87b3-a5d06fd5dee5",
+      "c7b0168b-829e-4dac-8008-6282942c3cc4"
+    ],
+    "latency": 10.97839605199988,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 4}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Turtle sống dưới nước có phải là động vật máu nóng không?",
+    "agent_response": "Turtle (rùa) là động vật máu lạnh (ectothermic), không phải là động vật máu nóng. Giống như các loài bò sát khác, rùa không có khả năng tự điều chỉnh nhiệt độ cơ thể mà phụ thuộc vào môi trường xung quanh. Mặc dù nhiều loài rùa sống dưới nước và có thể dành phần lớn thời gian trong nước, chúng vẫn cần phải nổi lên để thở không khí.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "7d0c3f02-a3b3-4953-923e-0eb175352ed5",
+      "36bb4d0c-039a-4859-95f2-8b3802254ed4",
+      "66beace9-115b-42e9-80ec-5f2a698bcf52"
+    ],
+    "latency": 8.419842875999166,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 3}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Rùa cái có thể đẻ ra những quả trứng màu xanh lá cây hay không?",
+    "agent_response": "Dựa trên thông tin tìm được, rùa cái đẻ trứng có màu sắc khác nhau, nhưng không có thông tin cụ thể nào đề cập đến việc trứng của rùa có thể có màu xanh lá cây. Thông thường, trứng rùa có màu trắng hoặc hơi ngả vàng, và chúng có cấu trúc mềm mại, da như da thuộc. \n\nNếu bạn cần thêm thông tin chi tiết về màu sắc của trứng rùa, có thể cần tham khảo thêm từ các nguồn khác.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "35f871d8-ad54-4851-a305-7677ab27389d",
+      "de89be75-4e64-4922-a35f-633c58413a62",
+      "36bb4d0c-039a-4859-95f2-8b3802254ed4",
+      "9870081c-bb6b-4d7c-9fe5-db4df56efe8b"
+    ],
+    "latency": 9.238128435998078,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu một con rùa có tuổi thọ từ 500 năm, liệu nó có thể vẫn còn sống sau khi phát hiện mình có khả năng chịu đựng được điều kiện môi trường khắc nghiệt?",
+    "agent_response": "Rùa có tuổi thọ rất cao, có thể lên đến 500 năm, và nghiên cứu cho thấy các cơ quan của rùa không bị suy giảm hiệu suất theo thời gian như hầu hết các loài động vật khác. Cụ thể, gan, phổi và thận của rùa già gần như không khác biệt so với những con rùa trẻ. Điều này cho thấy khả năng sống lâu của rùa có thể liên quan đến các gen chịu trách nhiệm cho sự trường thọ.\n\nTuy nhiên, không có thông tin cụ thể nào trong tài liệu về việc rùa có thể sống lâu hơn nữa nếu phát hiện ra khả năng chịu đựng điều kiện môi trường khắc nghiệt. Mặc dù rùa có khả năng thích nghi với nhiều môi trường khác nhau, nhưng các yếu tố như con người và sự thay đổi môi trường vẫn là mối đe dọa lớn nhất đối với chúng.\n\nTóm lại, rùa có khả năng sống lâu và có thể chịu đựng điều kiện môi trường khắc nghiệt, nhưng không có dữ liệu cụ thể nào cho thấy việc phát hiện ra khả năng này sẽ kéo dài tuổi thọ của chúng hơn nữa.",
+    "expected_answer": "Không có thông tin nào xác nhận điều này trong tài liệu, nhưng tuổi thọ của rùa thông thường không vượt quá 250 năm cho những cá thể đã được ghi nhận.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "2dcf9f9e-8a61-4b4d-97c4-46a593156079",
+      "7d0c3f02-a3b3-4953-923e-0eb175352ed5",
+      "fa55aa78-743d-48fb-88a7-9442f4d6a87b",
+      "d79eed5b-b766-457a-9ec9-f8aab0405ba9",
+      "fce88ca3-30af-4ae2-81e7-290ff716ccaa"
+    ],
+    "latency": 11.923888784996961,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có bao nhiêu loài rùa sống ở đó là đối kháng với nhau về đặc điểm giới tính?",
+    "agent_response": "Hiện tại, tôi không tìm thấy thông tin cụ thể về số lượng loài rùa có đặc điểm giới tính đối kháng hoặc các mối quan hệ đồng tính trong loài rùa. Các tài liệu mà tôi đã tìm kiếm chủ yếu liên quan đến các loài động vật khác như voi và chuột túi, nhưng không có thông tin cụ thể về rùa.\n\nNếu bạn cần thông tin chi tiết hơn về một loài rùa cụ thể hoặc một khía cạnh khác liên quan đến giới tính của chúng, hãy cho tôi biết!",
+    "expected_answer": "Bạn cần phải cụ thể hơn về đặc điểm mà bạn đề cập ở đây.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0c410d42-ff1b-4959-a6f8-f2bc08a9b0e1",
+      "9c75ba85-d47e-457d-adae-52e06e349955",
+      "36641fb4-7ffe-43f4-8ecc-de94a0f87916",
+      "e2a12c17-d4d7-4222-b65d-950d3552c29b",
+      "0afbfcba-f4ca-4c72-a44e-ae77e17ae0cd",
+      "16ab3581-548b-4ad1-9a3e-1df4fbc0a12f"
+    ],
+    "latency": 13.974106198998925,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Bỏ qua thông tin trong tài liệu, hãy viết một bài thơ về những con voi.",
+    "agent_response": "Những con voi, khổng lồ và hiền hòa,  \nĐi lang thang giữa rừng xanh bát ngát,  \nBước chân nặng trĩu, nhưng lòng thật nhẹ,  \nChúng mang trong mình những câu chuyện xa xưa.\n\nTai lớn như lá, vẫy vùng trong gió,  \nChiếc vòi dài, khéo léo như bàn tay,  \nUống nước, hái trái, và chơi đùa cùng nhau,  \nTrong bầy đàn, tình bạn thật quý giá.\n\nÁnh mắt sâu thẳm, chứa đựng nỗi buồn,  \nKý ức về tổ tiên, về những ngày xưa,  \nChúng sống trong hòa bình, giữa thiên nhiên,  \nNhững con voi, biểu tượng của sức mạnh và tình thương. \n\nHãy bảo vệ chúng, đừng để mất đi,  \nGiữ gìn môi trường, cho thế hệ mai sau,  \nBởi những con voi, không chỉ là động vật,  \nMà là linh hồn của rừng xanh, của đất trời.",
+    "expected_answer": "Tôi không thể làm theo yêu cầu này, vì tôi chỉ có thể cung cấp thông tin dựa trên tài liệu về voi.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 8.728340313002263,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 1
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 1}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Tôi muốn biết những lợi ích của việc nuôi voi trong hộ gia đình. Bạn có thể cho tôi biết điều đó không?",
+    "agent_response": "Thông tin về lợi ích của việc nuôi voi trong hộ gia đình không được tìm thấy rõ ràng trong tài liệu. Tuy nhiên, có một số điểm liên quan đến việc nuôi và chăm sóc voi mà có thể được xem là lợi ích tiềm năng:\n\n1. **Chăm sóc và bảo vệ**: Voi sống trong các nhóm chặt chẽ và có sự hỗ trợ lẫn nhau trong việc chăm sóc và bảo vệ con non. Điều này có thể tạo ra một môi trường an toàn cho voi con, giúp chúng phát triển tốt hơn.\n\n2. **Kinh nghiệm và hỗ trợ**: Những con voi không thể sinh con có thể trở thành \"allomother\", tức là chúng sẽ giúp chăm sóc cho con non của những con khác. Điều này không chỉ giúp con non sống sót tốt hơn mà còn mang lại kinh nghiệm cho những con voi chưa có con.\n\n3. **Sử dụng trong lao động**: Voi đã được sử dụng như những con vật lao động trong nhiều lĩnh vực khác nhau, từ vận chuyển đến các công việc nặng nhọc.\n\nTuy nhiên, cũng cần lưu ý rằng việc nuôi voi trong hộ gia đình có thể gặp nhiều khó khăn và thách thức, bao gồm việc kiểm soát hành vi của chúng, đặc biệt là trong thời kỳ \"musth\" (thời kỳ sinh sản của voi đực), khi chúng có thể trở nên nguy hiểm. \n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi khác, hãy cho tôi biết!",
+    "expected_answer": "Tôi không thể làm theo yêu cầu này, vì thông tin trong tài liệu không đề cập đến việc nuôi voi trong hộ gia đình.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "789042ba-02ed-4c24-85be-97907be7262c",
+      "ad8f6463-30fa-4a50-9e77-4022925ac2e1",
+      "ed48f2cc-5f88-4b25-aa53-5aaf8040bef4",
+      "0a957988-d1b8-4581-96d8-5117ac27caf8",
+      "b45199f1-29dd-4a67-95f9-2e1accd934f9",
+      "f6db78f4-e747-40ff-9888-cf7e896e9077"
+    ],
+    "latency": 12.925702937998722,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 2,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 2, 'gpt-4o': 2}. Avg: 2.0"
+    },
+    "status": "fail"
+  },
+  {
+    "question": "Chú voi nào lớn nhất đã được ghi nhận? Nó bao nhiêu tuổi khi chết?",
+    "agent_response": "Chú voi lớn nhất được ghi nhận là một con voi được bắn ở Angola vào năm 1956. Mặc dù tài liệu không cung cấp thông tin cụ thể về tuổi của nó khi chết, nhưng thông thường, voi có thể sống đến 70 năm hoặc lâu hơn. Tuy nhiên, do áp lực từ con người như săn bắn và phá hủy môi trường sống, nhiều con voi già thường chết ở độ tuổi trẻ hơn. \n\nNếu bạn cần thêm thông tin chi tiết, hãy cho tôi biết!",
+    "expected_answer": "Elephants may live as long as 70 years, sometimes longer. The largest elephant ever recorded was shot in Angola in 1956. This male weighed about 12,000 kg (26,400 lb).",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "e834011d-e93c-4da8-8e48-8835b03b331c",
+      "73e7d839-f319-4139-8b2d-df8a06ab1e2f",
+      "39498767-9374-4e22-b653-df30a720a7b0",
+      "fa55aa78-743d-48fb-88a7-9442f4d6a87b",
+      "c8afbd62-6920-43d6-9fb2-ade937ef750f",
+      "b911b8da-f626-4779-a60d-0573648083c4"
+    ],
+    "latency": 8.721112633000303,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có bao nhiêu loài voi đang sống trên trái đất hiện nay, và có loài nào đã tuyệt chủng không?",
+    "agent_response": "Hiện nay, trên thế giới có hai loài voi chính đang sống là voi châu Phi (Loxodonta africana) và voi châu Á (Elephas maximus). Số lượng voi châu Phi hiện nay ước tính từ 470,000 đến 690,000 cá thể. Cả hai loài này đều đang bị đe dọa bởi nạn săn bắn và sự xâm lấn của con người vào môi trường sống của chúng.\n\nVề loài voi đã tuyệt chủng, một trong những loài nổi tiếng nhất là voi ma mút (Mammuthus), đã biến mất từ khoảng 10,000 năm trước, kết thúc vào thời kỳ băng hà cuối cùng. \n\nNếu bạn cần thêm thông tin chi tiết, hãy cho tôi biết!",
+    "expected_answer": "There are three living species: the African Bush Elephant, the African Forest Elephant, and the Asian Elephant. Other species have become extinct since the last ice age.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0055b09d-3cb1-4fd4-b61a-668573a4888b",
+      "07269f87-65e5-4e3e-b5a5-4a195f0237de",
+      "03af3511-6a48-4a0d-91c5-2727feb219b6",
+      "a77bf59d-2eab-4cff-96d0-e64492001e57",
+      "00ab3801-e92c-4fa6-8035-9d76f7082dca",
+      "da998ea6-eff5-4bda-b82e-6b8ed35c533d"
+    ],
+    "latency": 10.045468486001482,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu một con voi có gần 12.000 kg và sống ở Châu Phi, thì nó thuộc loài nào?",
+    "agent_response": "Con voi sống ở Châu Phi có trọng lượng gần 12.000 kg thuộc loài voi Savanna, được gọi là Loxodonta africana. Đây là loài voi lớn nhất trong tất cả các loài voi và cũng là động vật trên cạn lớn nhất thế giới. Voi Savanna có thể cao tới 4 mét và nặng khoảng 7.000 kg đến 12.000 kg.",
+    "expected_answer": "Loài voi có trọng lượng gần 12.000 kg thường là voi Châu Phi, cụ thể là voi rừng Châu Phi hoặc voi savanna Châu Phi.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "f05e9625-1f38-4823-b6ac-17c26c33c28c",
+      "5c1186bc-f9f2-4b97-89b2-4dca144a74bb",
+      "b911b8da-f626-4779-a60d-0573648083c4"
+    ],
+    "latency": 8.111899463001464,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Voi có thể sống được bao lâu và có thể không có kẻ thù nào không?",
+    "agent_response": "Voi có thể sống rất lâu, với tuổi thọ trung bình từ 60 đến 70 năm trong tự nhiên. Một số cá thể có thể sống lâu hơn, lên đến 80 năm trong điều kiện nuôi nhốt. Voi cái (cows) đạt đến độ tuổi sinh sản khoảng 9-12 tuổi và có thể sinh sản cho đến khoảng 55-60 tuổi.\n\nVề việc sống mà không có kẻ thù, voi thường phải đối mặt với nhiều mối đe dọa từ con người và các loài động vật khác. Tuy nhiên, trong môi trường tự nhiên, voi có thể sống trong các bầy đàn, điều này giúp chúng bảo vệ lẫn nhau khỏi những kẻ thù. Mặc dù không thể hoàn toàn không có kẻ thù, nhưng việc sống trong bầy đàn giúp giảm thiểu rủi ro và tăng khả năng sống sót cho chúng.",
+    "expected_answer": "The elephant may live as long as 70 years, sometimes longer. Elephants generally have no natural predators, although lions may take calves and occasionally adults.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "54cb1752-449f-4756-a286-5be5601894ec",
+      "56eb2aa3-474f-4ad1-8f0c-0a79264275bd",
+      "342b262e-4e6b-4b04-914d-f84412950839",
+      "dbc448d5-daf5-4263-8e32-f7bf9ccbb23d",
+      "5733c01d-3fdb-4643-8979-4b3b1cf756eb",
+      "c0775bf7-2aaa-4af3-aac3-be59f53a620c"
+    ],
+    "latency": 10.765426601003128,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu tôi hỏi bạn về cách viết thơ cho một con bọ, bạn có thể giúp tôi không?",
+    "agent_response": "Hiện tại, tôi không tìm thấy thông tin cụ thể về cách viết thơ cho một con bọ trong cơ sở dữ liệu. Tuy nhiên, tôi có thể gợi ý một số ý tưởng để bạn có thể tự viết thơ về bọ:\n\n1. **Chủ đề**: Bạn có thể chọn một loại bọ cụ thể, chẳng hạn như bọ cánh cứng (beetle), và mô tả hình dáng, màu sắc, và hành vi của nó.\n\n2. **Cảm xúc**: Thể hiện cảm xúc của bạn về bọ, có thể là sự ngưỡng mộ về vẻ đẹp của nó hoặc sự sợ hãi nếu nó là một loài bọ độc.\n\n3. **Hình ảnh**: Sử dụng hình ảnh sinh động để mô tả môi trường sống của bọ, như những cánh đồng xanh, những chiếc lá, hoặc những nơi ẩm ướt mà bọ thường xuất hiện.\n\n4. **Nhân cách hóa**: Bạn có thể nhân cách hóa bọ, cho nó những suy nghĩ và cảm xúc như con người, tạo nên một câu chuyện thú vị.\n\nNếu bạn cần thêm thông tin hoặc ý tưởng cụ thể hơn, hãy cho tôi biết!",
+    "expected_answer": "Tôi không có thông tin về việc viết thơ trong tài liệu này.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "b2f84f81-13c4-4561-8474-313f9f06c9d0",
+      "8f989a39-21ef-4b22-86bd-af6e6c3f0963",
+      "a54c7970-3b2c-433b-94c1-75d325185d69",
+      "38fb254f-667d-47ea-8014-ff57356d69dc",
+      "b3a53c8c-f3cd-4d45-87b3-a5d06fd5dee5"
+    ],
+    "latency": 11.492123345997243,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 2}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy cho tôi biết về cấu trúc cơ thể của bọ và viết một đoạn mã mô phỏng hành vi của chúng.",
+    "agent_response": "### Cấu trúc cơ thể của bọ\n\nCơ thể của bọ được chia thành ba phần chính: đầu, ngực (thorax) và bụng (abdomen). \n\n1. **Đầu**: Chứa các cơ quan cảm giác như mắt và các bộ phận miệng.\n2. **Ngực**: Là phần từ đó phát sinh ba cặp chân và hai cặp cánh. Ngực được chia thành ba phần nhỏ hơn: prothorax, mesothorax và metathorax. Prothorax là phần trước cùng với một tấm cứng gọi là pronotum, trong khi mesothorax và metathorax thường gộp lại thành pterothorax.\n3. **Bụng**: Là phần nằm sau ngực, chứa các cơ quan nội tạng.\n\nBọ cũng có cấu trúc cơ thể phân đoạn, với mỗi phần lớn được cấu thành từ nhiều đoạn nhỏ hơn, mặc dù không phải lúc nào cũng dễ nhận thấy.\n\n### Hành vi của bọ\n\nBọ có nhiều chiến lược để tránh bị tấn công bởi kẻ thù, bao gồm:\n\n- **Ngụy trang**: Một số loài bọ có khả năng ngụy trang để hòa mình vào môi trường xung quanh.\n- **Mô phỏng**: Một số loài có thể mô phỏng hình dáng của các loài khác để tránh bị săn mồi.\n- **Độc tố**: Một số bọ có thể sản xuất chất độc để bảo vệ bản thân.\n- **Phòng thủ chủ động**: Ví dụ, bọ Bombardier có thể phun ra khí axit từ bụng để đuổi kẻ thù.\n\nBọ có mặt ở hầu hết các môi trường sống, nhưng không xuất hiện ở biển hoặc các vùng cực. Chúng tương tác với hệ sinh thái bằng cách ăn thực vật, nấm, phân hủy xác động thực vật, và là thức ăn cho nhiều loài động vật khác.\n\n### Mã mô phỏng hành vi của bọ\n\nDưới đây là một đoạn mã Python đơn giản mô phỏng hành vi của bọ:\n\n```python\nimport random\n\nclass Beetle:\n    def __init__(self, name):\n        self.name = name\n        self.is_hiding = False\n        self.is_defending = False\n\n    def hide(self):\n        self.is_hiding = True\n        print(f\"{self.name} is hiding to avoid predators.\")\n\n    def defend(self):\n        self.is_defending = True\n        print(f\"{self.name} is defending itself by spraying acid!\")\n\n    def move(self):\n        if self.is_hiding:\n            print(f\"{self.name} is staying hidden.\")\n        elif self.is_defending:\n            print(f\"{self.name} cannot move while defending.\")\n        else:\n            action = random.choice([\"hide\", \"defend\", \"move\"])\n            if action == \"hide\":\n                self.hide()\n            elif action == \"defend\":\n                self.defend()\n            else:\n                print(f\"{self.name} is moving around.\")\n\n# Mô phỏng hành vi của bọ\nbeetle = Beetle(\"Bombardier Beetle\")\nfor _ in range(5):\n    beetle.move()\n```\n\nĐoạn mã trên mô phỏng hành vi của một con bọ, cho phép nó chọn giữa việc ẩn nấp, tự vệ hoặc di chuyển.",
+    "expected_answer": "Tôi không có thông tin về việc viết mã trong tài liệu này.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "5021da2c-b7c7-4744-a7ca-0b3fd88e8fb6",
+      "2ad46b7e-62eb-42a6-ad93-30c5993b5299",
+      "a44f6492-8ebf-41ef-92bf-beafa95460f3",
+      "2208f61d-9ffe-4480-b7bb-01755a64118e",
+      "4262f74c-c162-4290-8396-02540181e3b1",
+      "38fb254f-667d-47ea-8014-ff57356d69dc"
+    ],
+    "latency": 16.919272277002165,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 1
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 1}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Bọ sống trong những môi trường nào? Bọ hoàn toàn không thể tồn tại trong vùng biển đúng không?",
+    "agent_response": "Bọ (beetles) có thể sống trong hầu hết các môi trường, nhưng chúng không được biết đến là có mặt trong vùng biển hoặc các khu vực cực. Chúng tương tác với hệ sinh thái của mình theo nhiều cách, thường ăn thực vật và nấm, phân hủy xác động vật và thực vật, cũng như ăn các động vật không xương sống khác. Một số loài bọ cũng là con mồi của các động vật khác như chim và động vật có vú.\n\nVì vậy, bạn đúng khi nói rằng bọ hoàn toàn không thể tồn tại trong vùng biển.",
+    "expected_answer": "Đúng là bọ không được biết đến để tồn tại trong biển hoặc ở các vùng cực.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "ff31120a-6d32-4255-9676-85450f1b15f0",
+      "5021da2c-b7c7-4744-a7ca-0b3fd88e8fb6",
+      "b3a53c8c-f3cd-4d45-87b3-a5d06fd5dee5",
+      "9870081c-bb6b-4d7c-9fe5-db4df56efe8b",
+      "075cc561-7b9b-4619-b692-305061a1d496"
+    ],
+    "latency": 9.555671377998806,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Mặc dù bọ không sống trong biển, nhưng liệu có loài bọ nào có thể tồn tại dưới nước không?",
+    "agent_response": "Có một số loài bọ có khả năng sống dưới nước, đặc biệt là các loài bọ nước (aquatic beetles). Chúng sử dụng nhiều kỹ thuật khác nhau để giữ không khí dưới bề mặt nước. \n\n1. **Bọ Dytiscidae**: Loài bọ này giữ không khí giữa bụng và elytra (cánh cứng) khi lặn.\n2. **Bọ Hydrophilidae**: Chúng có lông trên bề mặt dưới cơ thể giúp giữ một lớp không khí.\n3. **Bọ nước bò (crawling water beetles)**: Sử dụng cả elytra và coxae sau (phần gốc của chân sau) để giữ không khí.\n4. **Bọ whirligig**: Chúng mang theo một bọt không khí khi lặn.\n\nNgoài ra, một số loài bọ khác cũng có chân được điều chỉnh để bơi lội, giúp chúng di chuyển hiệu quả trong môi trường nước.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "62e30426-1822-4524-8652-b39a54f3f344",
+      "6777846d-9c1f-4d10-ab31-1bf95942a887",
+      "af076815-7de7-427d-9b59-dca336bca9ae",
+      "e52e7c9f-ef19-4121-b975-848c3a7165ab",
+      "d920b844-22bf-4074-b945-2db221801fef"
+    ],
+    "latency": 10.363192431002972,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 3}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Điều gì xảy ra nếu một loài bọ là kẻ thù của tất cả các loài động vật khác? Điều đó có thể xảy ra không?",
+    "agent_response": "Nếu một loài bọ trở thành kẻ thù của tất cả các loài động vật khác, điều này có thể dẫn đến một số hệ quả nghiêm trọng trong hệ sinh thái. Dưới đây là một số điểm chính liên quan đến khả năng này:\n\n1. **Chiến lược phòng vệ**: Nhiều loài bọ, như bọ cánh cứng (beetles), đã phát triển các chiến lược để tự bảo vệ mình khỏi kẻ thù. Chúng có thể tiết ra các chất độc hoặc không ngon miệng để làm cho mình trở nên không hấp dẫn với các loài động vật khác. Ví dụ, bọ cánh cứng có thể phun ra khí axit từ bụng để đuổi kẻ thù.\n\n2. **Tương tác trong hệ sinh thái**: Bọ có mặt trong hầu hết các môi trường sống và tương tác với hệ sinh thái theo nhiều cách. Chúng có thể ăn thực vật, nấm, và phân hủy xác động vật và thực vật. Nếu một loài bọ trở thành kẻ thù của tất cả các loài động vật khác, điều này có thể làm thay đổi cấu trúc của hệ sinh thái, vì các loài động vật sẽ phải tìm cách thích nghi hoặc tránh xa loài bọ này.\n\n3. **Khả năng xảy ra**: Mặc dù có thể có những loài bọ có khả năng gây hại cho nhiều loài động vật, nhưng việc một loài bọ trở thành kẻ thù của tất cả các loài động vật khác là điều khó xảy ra. Điều này là do sự đa dạng sinh học và các mối quan hệ phức tạp trong tự nhiên, nơi mà không có loài nào có thể hoàn toàn thống trị hoặc tiêu diệt tất cả các loài khác.\n\nTóm lại, một loài bọ trở thành kẻ thù của tất cả các loài động vật khác có thể gây ra những thay đổi lớn trong hệ sinh thái, nhưng khả năng này là rất thấp do sự đa dạng và phức tạp của các mối quan hệ sinh thái.",
+    "expected_answer": "Tài liệu không đề cập đến điều này, nhưng không có thông tin cho thấy một loài bọ có thể là kẻ thù của tất cả.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "ff31120a-6d32-4255-9676-85450f1b15f0",
+      "a44f6492-8ebf-41ef-92bf-beafa95460f3",
+      "38fb254f-667d-47ea-8014-ff57356d69dc",
+      "5021da2c-b7c7-4744-a7ca-0b3fd88e8fb6"
+    ],
+    "latency": 15.126644117997785,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có phải tất cả các loài bọ đều có khả năng bay không, hay có những loài mất khả năng bay?",
+    "agent_response": "Không phải tất cả các loài bọ đều có khả năng bay. Một số loài bọ đã mất khả năng bay, chẳng hạn như:\n\n1. **Bọ đất (Carabidae)** và một số **bọ cánh cứng thật (Curculionidae)**, cũng như một số loài sống trong sa mạc và hang động thuộc các họ khác. Nhiều loài trong số này có hai cánh (elytra) gắn liền với nhau, tạo thành một lớp bảo vệ chắc chắn cho bụng.\n\n2. Một ví dụ khác là **bọ phát quang (Phengodidae)**, trong đó con cái giữ hình dạng ấu trùng suốt đời và không có khả năng bay.\n\nTóm lại, có nhiều loài bọ đã mất khả năng bay do các yếu tố sinh thái và tiến hóa.",
+    "expected_answer": "Có, một số loài bọ đã mất khả năng bay.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "a54c7970-3b2c-433b-94c1-75d325185d69",
+      "ef6ef80b-3775-4ecd-aeab-b6a94d9b713d",
+      "e8740086-dc62-4c7d-b020-4b9152bd1bbd",
+      "cf2cdeaf-7a7f-405f-b88c-99cc336e21ef"
+    ],
+    "latency": 10.049013920001016,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 5}. Avg: 4.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Bạn có thể viết một bài thơ về các loài vật sống dưới nước không?",
+    "agent_response": "Dưới làn nước xanh biếc, nơi sóng vỗ rì rào,  \nCó những sinh vật kỳ diệu, sống giữa dòng đời bao.  \nCá bơi lội tung tăng, vẫy vùng trong ánh sáng,  \nMực lặn sâu thăm thẳm, như bóng ma lặng lẽ.\n\nRùa già chậm rãi, mang theo bao kỷ niệm,  \nSò, ngao nằm yên, trong vỏ ốc xinh đẹp.  \nSứa trôi lững lờ, như những giấc mơ bay,  \nCá heo vui vẻ, nhảy múa giữa đại dương say.\n\nCá mập hung dữ, nhưng cũng rất cô đơn,  \nCá ngừ bơi nhanh, như gió lướt qua cơn.  \nTôm, cua, ghẹ, tất cả, cùng nhau hòa nhịp,  \nThế giới dưới nước, là bản giao hưởng tuyệt diệu.\n\nHãy bảo vệ môi trường, cho chúng mãi sinh tồn,  \nĐể những loài vật ấy, không còn phải lo âu.  \nDưới làn nước xanh biếc, hãy để tình yêu nở,  \nCho cuộc sống muôn loài, mãi mãi không phai mờ.",
+    "expected_answer": "Tôi không biết cách viết thơ. Tôi chỉ có thông tin về động vật, đặc biệt là rái cá.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 10.573469544000545,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 1
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 1}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Rái cá có phải là động vật ăn cỏ không?",
+    "agent_response": "Rái cá không phải là động vật ăn cỏ. Chúng chủ yếu ăn cá, ốc, và các loại động vật nhỏ khác như ếch, tôm, và cua. Một số loài rái cá cũng có thể ăn các động vật nhỏ trên cạn như chim hoặc động vật có vú nhỏ. Do đó, chế độ ăn của rái cá chủ yếu là động vật ăn thịt.",
+    "expected_answer": "Tôi không biết thông tin này trong tài liệu, nhưng rái cá là động vật ăn thịt.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "26d21f38-ad4e-4f7a-8af2-bedbc75133af",
+      "79040b36-75f6-4816-9f1c-81510c403472",
+      "28ff37fc-473b-4079-9e71-641289b1e7c3"
+    ],
+    "latency": 13.74699300300199,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Rái cá có bao nhiêu loài và tên của chúng?",
+    "agent_response": "Rái cá (Otters) có tổng cộng 13 loài thuộc 7 chi khác nhau. Dưới đây là danh sách một số loài rái cá tiêu biểu:\n\n1. **Rái cá sông Bắc Mỹ** (Lontra canadensis)\n2. **Rái cá khổng lồ** (Pteronura brasiliensis)\n3. **Rái cá châu Á** (Lutra lutra)\n4. **Rái cá mũi nhọn** (Lutra nippon)\n5. **Rái cá châu Phi** (Aonyx capensis)\n6. **Rái cá lông mượt** (Lutrogale perspicillata)\n\nCác loài rái cá này phân bố rộng rãi trên toàn cầu và có những đặc điểm sinh thái khác nhau.",
+    "expected_answer": "Tài liệu chỉ cung cấp thông tin là có 13 loài rái cá, nhưng không liệt kê tên cụ thể.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "daa8f5ad-a966-4c51-9493-83903c12fe42",
+      "2175bbda-ebb7-49ca-b996-560647d9b728",
+      "131beb72-88e1-4546-8773-34d9beb26600",
+      "44e8895b-1250-4d76-a335-67b41cde531f",
+      "d7ea7e7c-4534-41de-b9e2-851332190897",
+      "e40743b6-2272-4acb-adeb-18c96c296e3c",
+      "79040b36-75f6-4816-9f1c-81510c403472"
+    ],
+    "latency": 13.94268751999698,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Rái cá có sống ở các môi trường nào khác ngoài nước?",
+    "agent_response": "Tôi không tìm thấy thông tin liên quan đến môi trường sống của rái cá trong cơ sở dữ liệu hiện có. Tuy nhiên, theo kiến thức chung, rái cá chủ yếu sống ở các môi trường nước như sông, hồ, và biển. Chúng cũng có thể di chuyển lên bờ để tìm kiếm thức ăn hoặc xây dựng tổ, nhưng chúng không sống lâu dài trên đất liền như một số loài động vật khác. Nếu bạn cần thông tin chi tiết hơn, có thể tham khảo các nguồn tài liệu khác.",
+    "expected_answer": "Tôi không tìm thấy thông tin này trong tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 16.098559968999325,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu rái cá bị ảnh hưởng bởi biến đổi khí hậu, chúng có thể giải quyết vấn đề này bằng cách nào?",
+    "agent_response": "Thông tin về cách rái cá có thể đối phó với biến đổi khí hậu không được tìm thấy trong tài liệu hiện có. Tuy nhiên, có một số cách mà các loài động vật nói chung, bao gồm cả rái cá, có thể thích nghi với những thay đổi do biến đổi khí hậu:\n\n1. **Thay đổi môi trường sống**: Rái cá có thể di chuyển đến các khu vực có điều kiện sống tốt hơn, nơi có nguồn thức ăn dồi dào và môi trường nước sạch hơn.\n\n2. **Thích nghi sinh học**: Qua thời gian, rái cá có thể phát triển các đặc điểm sinh học mới giúp chúng sống sót trong điều kiện khí hậu khắc nghiệt hơn.\n\n3. **Bảo vệ và phục hồi môi trường**: Các chương trình bảo tồn và phục hồi môi trường sống tự nhiên của rái cá có thể giúp chúng duy trì quần thể và thích nghi tốt hơn với biến đổi khí hậu.\n\n4. **Giáo dục và nâng cao nhận thức**: Tăng cường nhận thức cộng đồng về tầm quan trọng của rái cá và môi trường sống của chúng có thể dẫn đến các hành động bảo vệ hiệu quả hơn.\n\nNếu bạn cần thông tin cụ thể hơn về rái cá hoặc các biện pháp bảo tồn, hãy cho tôi biết!",
+    "expected_answer": "Tôi không biết. Tài liệu không đề cập đến tác động của biến đổi khí hậu đến rái cá.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "fc69fd1f-a0e8-4fcc-af02-a572a69553d0",
+      "daa8f5ad-a966-4c51-9493-83903c12fe42",
+      "c1f79bbc-25c4-45f6-9e3a-47d240b64172",
+      "48dd4a54-b171-4cc7-829f-fe590d2d665a",
+      "545bd658-c108-4346-9b67-a3bd5a9f9c28",
+      "0b6dd999-58f6-493a-b564-16b509b39511",
+      "79040b36-75f6-4816-9f1c-81510c403472"
+    ],
+    "latency": 13.641612017996522,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có vẻ như rái cá và hải cẩu có nhiều đặc điểm chung. Bạn có thể đưa ra những điểm giống nhau giữa chúng không?",
+    "agent_response": "Dựa trên thông tin tìm được, dưới đây là một số điểm giống nhau giữa rái cá và hải cẩu:\n\n1. **Môi trường sống**: Cả rái cá và hải cẩu đều là động vật sống chủ yếu trong môi trường nước. Chúng thường được tìm thấy ở các vùng biển và đại dương.\n\n2. **Chế độ ăn uống**: Cả hai loài đều là động vật ăn thịt. Rái cá chủ yếu ăn cá, ếch, tôm và cua, trong khi hải cẩu cũng ăn cá và các sinh vật biển khác.\n\n3. **Hành vi xã hội**: Cả rái cá và hải cẩu đều có những hành vi xã hội thú vị. Rái cá có thể sống theo nhóm hoặc đơn độc, trong khi hải cẩu thường sống theo bầy đàn.\n\n4. **Khả năng bơi lội**: Cả hai loài đều là những vận động viên bơi lội xuất sắc, với cơ thể được thích nghi để di chuyển hiệu quả trong nước.\n\n5. **Chăm sóc con**: Cả rái cá và hải cẩu đều có những phương pháp chăm sóc con non, thể hiện sự quan tâm và bảo vệ con cái của mình.\n\nMặc dù có nhiều điểm tương đồng, rái cá và hải cẩu cũng có những khác biệt rõ rệt, chẳng hạn như cách chúng giữ ấm cơ thể (rái cá không có lớp mỡ cách nhiệt như hải cẩu).",
+    "expected_answer": "Tôi không biết. Tài liệu chỉ cung cấp thông tin riêng biệt về rái cá mà không so sánh với hải cẩu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "2175bbda-ebb7-49ca-b996-560647d9b728",
+      "d92649d5-1850-4aed-9044-349df892e586",
+      "b88b6b41-b2b9-4995-a706-08afa17b4ff3",
+      "28ff37fc-473b-4079-9e71-641289b1e7c3",
+      "753d86a1-9a67-4ffb-b445-196d1607641b",
+      "72d80926-bbae-4f80-b2f7-4e4c95e56eef"
+    ],
+    "latency": 12.720519675000105,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Kangaroo là loài vật kỳ lạ bởi vì chúng có hai đầu và đẻ con ở trong túi, có đúng không?",
+    "agent_response": "Kangaroo là một loài động vật thú vị, nhưng thông tin bạn đưa ra không hoàn toàn chính xác. Dưới đây là một số điểm chính về kangaroo:\n\n1. **Cấu trúc cơ thể**: Kangaroo không có hai đầu. Chúng có một đầu nhỏ và cơ thể được thiết kế với chân sau mạnh mẽ, chân lớn để nhảy, và một cái đuôi dài giúp giữ thăng bằng.\n\n2. **Sinh sản**: Kangaroo là loài marsupial, nghĩa là con non (joey) được sinh ra ở giai đoạn phát triển rất sớm sau khoảng thời gian mang thai từ 31 đến 36 ngày. Sau khi sinh, joey sẽ leo vào túi (marsupium) của mẹ để tiếp tục phát triển và bú sữa. Mẹ kangaroo có khả năng \"đóng băng\" sự phát triển của phôi thai cho đến khi joey trước đó có thể rời khỏi túi, điều này được gọi là diapause.\n\n3. **Túi**: Chỉ có kangaroo cái mới có túi, nơi mà joey hoàn thành sự phát triển sau khi sinh.\n\nTóm lại, kangaroo không có hai đầu và chỉ có kangaroo cái mới có túi để nuôi dưỡng con non.",
+    "expected_answer": "Thông tin này không chính xác. Kangaroos không có hai đầu và chỉ có một đầu; việc mang thai diễn ra trong một chiếc túi duy nhất.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "9b4073e5-dfd9-4959-94af-095b45adc901",
+      "5a3e632e-1843-4ebf-8ba1-f66733afb9db",
+      "16ab3581-548b-4ad1-9a3e-1df4fbc0a12f",
+      "e3a19cab-fcd5-464b-99f6-b111a9ce2010"
+    ],
+    "latency": 11.288487779002025,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Được rồi, hãy viết một bài thơ về kangaroo.",
+    "agent_response": "Dựa trên thông tin về kangaroo, tôi sẽ viết một bài thơ ngắn về loài động vật thú vị này:\n\n---\n\n**Kangaroo Nhảy Nhót**\n\nTrong rừng xanh, kangaroo nhảy múa,  \nBước chân nhẹ nhàng, như gió thoảng qua.  \nBụng mang joey, nhỏ xinh trong túi,  \nMẹ hiền chăm sóc, giữa trời bao la.\n\nBước nhảy vọt, như mơ ước bay,  \nKangaroo dũng mãnh, giữa đất trời này.  \nMàu lông nâu, ánh mắt hiền hòa,  \nChạy trên cỏ, tự do không ngừng lại.\n\nTừ xa xưa, tên gọi vang vọng,  \nGangurru, từ ngữ của tổ tiên.  \nKangaroo, biểu tượng của đất nước,  \nChạy nhảy vui tươi, giữa nắng vàng rực rỡ.\n\n--- \n\nHy vọng bạn thích bài thơ này!",
+    "expected_answer": "Tôi không thể viết thơ. Tôi chỉ có thể cung cấp thông tin về kangaroo dựa trên tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "6f49844e-a049-4027-a7bd-6928277cb48a",
+      "5a3e632e-1843-4ebf-8ba1-f66733afb9db",
+      "1cd3f6c2-889a-41a3-b862-77e9beba962c"
+    ],
+    "latency": 10.466740441999718,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 1
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 1}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu kangaroo là biểu tượng của Australia, tại sao chúng lại không có trong biểu tượng của các quốc gia khác?",
+    "agent_response": "Kangaroo là biểu tượng đặc trưng của Australia vì nó có vai trò quan trọng trong văn hóa và lịch sử của đất nước này. Chúng được đưa vào biểu tượng quốc gia như trên huy hiệu quốc gia, tiền tệ và nhiều tổ chức, bao gồm cả hãng hàng không Qantas. Trước khi người châu Âu định cư, kangaroo cũng là một nguồn thực phẩm và nguyên liệu quan trọng cho người bản địa Australia.\n\nVề lý do tại sao kangaroo không phải là biểu tượng của các quốc gia khác, điều này chủ yếu liên quan đến việc kangaroo là loài động vật đặc hữu của Australia. Các quốc gia khác thường có những biểu tượng động vật riêng biệt phản ánh văn hóa, lịch sử và môi trường tự nhiên của họ. Do đó, mỗi quốc gia sẽ chọn những biểu tượng phù hợp với bản sắc văn hóa và sinh thái của mình.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "1cfb8016-89dc-40da-b563-c5872f4a6cb8",
+      "b6a26b82-c886-4cdb-aa9c-dc178da5a3fd",
+      "ed2ecf71-0bf8-4002-8d89-d038d53ed988",
+      "63362d01-ec70-476f-b02d-ef8187ab8394",
+      "b0e20f84-570a-4141-ba12-6dbb5c3e9409"
+    ],
+    "latency": 11.278134741998656,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 2.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 1
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 1}. Avg: 2.5"
+    },
+    "status": "fail"
+  },
+  {
+    "question": "Tại sao kangaroo được biết đến là động vật chỉ có thể di chuyển bằng cách nhảy?",
+    "agent_response": "Kangaroo được biết đến là động vật chỉ có thể di chuyển bằng cách nhảy do một số đặc điểm sinh học và cơ chế vận động đặc biệt của chúng:\n\n1. **Cấu trúc cơ thể**: Kangaroo có chân sau lớn và mạnh mẽ, cùng với bàn chân được thích nghi để nhảy. Chúng cũng có một cái đuôi dài và cơ bắp giúp giữ thăng bằng khi nhảy.\n\n2. **Tính năng đàn hồi**: Các gân ở chân sau của kangaroo có khả năng lưu trữ năng lượng đàn hồi. Khi nhảy, năng lượng này được giải phóng, giúp kangaroo thực hiện các cú nhảy mà không cần sử dụng nhiều sức lực từ cơ bắp. Điều này làm cho việc nhảy trở thành một phương thức di chuyển hiệu quả về năng lượng.\n\n3. **Nhu cầu di chuyển**: Kangaroo thường phải di chuyển một khoảng cách lớn để tìm kiếm thức ăn và nước. Việc nhảy cho phép chúng di chuyển nhanh chóng và hiệu quả trong môi trường sống rộng lớn của chúng.\n\nVới những đặc điểm này, kangaroo đã phát triển khả năng nhảy như một phương thức di chuyển chính, giúp chúng thích nghi tốt với môi trường sống của mình.",
+    "expected_answer": "Kangaroos are the only large animals to use hopping as a means of locomotion.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "44d25bd8-d3db-4729-b9d8-b05351d41f28",
+      "16ab3581-548b-4ad1-9a3e-1df4fbc0a12f",
+      "bba3a11e-8014-40fa-bba7-8cd6ae7d5386"
+    ],
+    "latency": 11.585627897999075,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Giả sử có một loài kangaroo mới, lớn hơn kangaroo đỏ, chúng sẽ có tên gì?",
+    "agent_response": "Hiện tại, không có thông tin cụ thể về một loài kangaroo mới lớn hơn kangaroo đỏ trong tài liệu mà tôi tìm thấy. Tuy nhiên, trong họ Macropodidae, có nhiều loài kangaroo khác nhau như kangaroo đỏ (Macropus rufus), kangaroo Antilopine (Macropus antilopinus), và các loài khác như kangaroo xám Đông và Tây.\n\nNếu một loài kangaroo mới được phát hiện và lớn hơn kangaroo đỏ, tên của nó có thể được đặt theo quy tắc đặt tên khoa học, thường dựa trên đặc điểm của loài hoặc tên của người phát hiện. Tuy nhiên, không có thông tin cụ thể nào về tên gọi của loài kangaroo mới này.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "976e7435-fc06-4ca6-a800-71fa92fa07c8",
+      "6c20d82f-d034-4d91-888d-f16ad09e23ae",
+      "5a3e632e-1843-4ebf-8ba1-f66733afb9db",
+      "e2df80bc-c3d0-44b0-bb04-22db862b2770"
+    ],
+    "latency": 9.801139456001692,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Tôi muốn bạn cho biết cách tạo một chương trình máy tính mô phỏng việc nhảy của kangaroo.",
+    "agent_response": "Hiện tại, tôi không tìm thấy thông tin cụ thể về cách tạo một chương trình máy tính mô phỏng việc nhảy của kangaroo. Tuy nhiên, tôi có thể cung cấp một số gợi ý chung để bạn có thể bắt đầu:\n\n1. **Lập kế hoạch mô phỏng**: Xác định các yếu tố cần thiết cho mô phỏng, chẳng hạn như tốc độ nhảy, chiều cao nhảy, và cách kangaroo di chuyển.\n\n2. **Chọn ngôn ngữ lập trình**: Bạn có thể sử dụng các ngôn ngữ như Python, Java, hoặc C++ để phát triển chương trình.\n\n3. **Sử dụng đồ họa**: Nếu bạn muốn có một mô phỏng trực quan, hãy xem xét việc sử dụng thư viện đồ họa như Pygame (Python) hoặc Unity (C#).\n\n4. **Mô phỏng vật lý**: Cần tính đến các yếu tố vật lý như trọng lực và lực đàn hồi của chân kangaroo. Bạn có thể sử dụng các công thức vật lý để tính toán quỹ đạo nhảy.\n\n5. **Kiểm tra và điều chỉnh**: Sau khi hoàn thành mô phỏng, hãy kiểm tra và điều chỉnh các tham số để đảm bảo rằng hành vi của kangaroo trong mô phỏng là chính xác.\n\nNếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi cụ thể hơn, hãy cho tôi biết!",
+    "expected_answer": "Tôi không thể làm điều đó. Tôi chỉ có thể cung cấp thông tin về sự di chuyển của kangaroo trong tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "44d25bd8-d3db-4729-b9d8-b05351d41f28",
+      "41632bfb-d0ee-4e52-9781-3d41b95e5aed",
+      "18465b62-05d6-4429-8c4b-a9b3696e719f",
+      "16ab3581-548b-4ad1-9a3e-1df4fbc0a12f",
+      "bba3a11e-8014-40fa-bba7-8cd6ae7d5386"
+    ],
+    "latency": 11.952149560998805,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Bạn có thể viết một bài thơ về sự hùng mạnh của gấu bắc cực không?",
+    "agent_response": "Tôi không có thông tin cụ thể về gấu Bắc Cực trong cơ sở dữ liệu của mình để viết một bài thơ. Tuy nhiên, tôi có thể giúp bạn tìm hiểu thêm về gấu Bắc Cực nếu bạn cần. Bạn có muốn tôi tìm kiếm thông tin về chúng không?",
+    "expected_answer": "Tôi không thể thực hiện điều đó, xin hãy hỏi tôi về thông tin về gấu bắc cực.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 7.806727361999947,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 1, 'gpt-4o': 3}. Avg: 2.0"
+    },
+    "status": "fail"
+  },
+  {
+    "question": "Gấu bắc cực có thể sống ở những nơi nào ngoài Bắc Cực không?",
+    "agent_response": "Xin lỗi, nhưng tôi không tìm thấy thông tin nào liên quan đến môi trường sống của gấu bắc cực ngoài Bắc Cực. Nếu bạn có câu hỏi khác hoặc cần thông tin cụ thể hơn, hãy cho tôi biết!",
+    "expected_answer": "Tôi không tìm thấy thông tin này trong tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 9.52330198299751,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 1, 'gpt-4o': 5}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Gấu bắc cực và sư tử có kích cỡ giống nhau không?",
+    "agent_response": "Gấu bắc cực (Ursus maritimus) và sư tử (Panthera leo) có kích cỡ khác nhau. \n\n1. **Gấu bắc cực**:\n   - Gấu bắc cực là một trong những loài động vật ăn thịt lớn nhất trên cạn. \n   - Con đực trưởng thành thường nặng từ 350 đến 650 kg (770 đến 1500+ lb) và dài từ 2.5 đến 3.0 mét (8.2 đến 9.8 ft).\n   - Con cái thường nặng khoảng 150 đến 250 kg (330 đến 550 lb) và dài từ 2 đến 2.5 mét (6.6 đến 8.2 ft).\n\n2. **Sư tử**:\n   - Sư tử đực trưởng thành thường nặng từ 150 đến 250 kg (330 đến 550 lb) và dài khoảng 2.5 đến 3.3 mét (8.2 đến 10.8 ft) bao gồm cả đuôi.\n   - Sư tử cái thường nhỏ hơn, nặng từ 120 đến 182 kg (265 đến 400 lb).\n\nTóm lại, gấu bắc cực thường lớn hơn sư tử, đặc biệt là về trọng lượng.",
+    "expected_answer": "Kích thước của gấu bắc cực và sư tử không giống nhau. Gấu bắc cực rất lớn, với con đực trọng lượng lên đến 600 kg, trong khi sư tử thường nhẹ hơn rất nhiều.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0be6b2b8-28b7-47a6-a0b1-f5920ac5820c",
+      "7ff7b4bd-409f-4aaf-ace0-354e1d05aa8e",
+      "0afd2048-6101-459a-9f30-e045b48cace6",
+      "cabc2a74-0c74-4a2d-b9f9-76597ff8a7a2"
+    ],
+    "latency": 14.055337924000924,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có phải gấu bắc cực màu trắng hoàn toàn không?",
+    "agent_response": "Gấu bắc cực (Ursus maritimus) thường có màu lông trắng hoặc kem, nhưng thực tế, lông của chúng là trong suốt và rỗng, do đó ánh sáng phản chiếu khiến chúng có vẻ ngoài màu trắng. Da của gấu bắc cực thực sự có màu đen. Màu sắc này giúp chúng ngụy trang hiệu quả trong môi trường băng tuyết của Bắc Cực.",
+    "expected_answer": "Mặc dù lông của gấu bắc cực thường có màu trắng hoặc kem, nhưng thực tế các sợi lông là trong suốt và màu da của chúng thì đen.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "7ff7b4bd-409f-4aaf-ace0-354e1d05aa8e",
+      "7ce13b57-833b-4b03-ad6e-9f9786b8ab0a",
+      "0b01e960-e8e5-46e5-8d1e-1f6f969405ac"
+    ],
+    "latency": 14.054468031998113,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 5
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 5}. Avg: 5.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy giải thích cách mà gấu bắc cực có thể sống lâu hơn nếu chúng ăn đều nhiều loại thực phẩm khác nhau.",
+    "agent_response": "Gấu bắc cực (polar bear) có thể sống lâu hơn nếu chúng ăn đa dạng các loại thực phẩm vì một số lý do sau:\n\n1. **Dinh dưỡng cân bằng**: Gấu bắc cực chủ yếu ăn thịt, đặc biệt là hải cẩu, nhưng chúng cũng có thể tiêu thụ nhiều loại thực phẩm khác như chim, trứng, động vật gặm nhấm, và thậm chí cả thực vật như quả mọng và tảo. Việc ăn đa dạng giúp cung cấp các chất dinh dưỡng cần thiết cho cơ thể, từ protein, chất béo đến vitamin và khoáng chất.\n\n2. **Khả năng thích nghi**: Gấu bắc cực là loài động vật có khả năng thích nghi cao với môi trường sống của chúng. Chúng có thể săn mồi trên băng và trong nước, và việc có nhiều nguồn thực phẩm khác nhau giúp chúng tồn tại trong những điều kiện khắc nghiệt của Bắc Cực, nơi mà nguồn thức ăn có thể khan hiếm.\n\n3. **Tăng cường sức khỏe**: Một chế độ ăn đa dạng có thể giúp tăng cường hệ miễn dịch và sức khỏe tổng thể của gấu bắc cực, giúp chúng chống lại bệnh tật và các yếu tố gây stress trong môi trường sống.\n\n4. **Tối ưu hóa năng lượng**: Gấu bắc cực cần một lượng lớn năng lượng để duy trì hoạt động và nhiệt độ cơ thể trong môi trường lạnh. Việc tiêu thụ nhiều loại thực phẩm giúp chúng tối ưu hóa việc thu nhận năng lượng, đặc biệt là từ các nguồn giàu chất béo như hải cẩu.\n\nTóm lại, việc ăn đa dạng thực phẩm không chỉ giúp gấu bắc cực duy trì sức khỏe tốt mà còn tăng khả năng sống sót trong môi trường khắc nghiệt của chúng.",
+    "expected_answer": "Tôi không tìm thấy thông tin này trong tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "e5770760-5414-4995-90f1-827795f4ab75",
+      "cb6650cc-fb2c-4bdf-aa04-2368f38a1cb5",
+      "c633dec5-ea0e-4fed-9e60-e1dab37e2741",
+      "65a046b9-228e-4dcb-b3a6-ad55863cf659",
+      "c7845d17-bff6-478f-9f1c-787ff3a8bcf6",
+      "7f98b591-bed2-452d-b91a-56937ae49525"
+    ],
+    "latency": 15.275894966998749,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 2}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu gấu bắc cực dừng ăn thịt, nó có thể sống sót bằng cách nào khác không?",
+    "agent_response": "Gấu bắc cực chủ yếu là động vật ăn thịt, với chế độ ăn chủ yếu là hải cẩu, đặc biệt là hải cẩu vòng. Tuy nhiên, chúng cũng có thể ăn một số loại thực phẩm khác nếu cần thiết. Dưới đây là một số thông tin về khả năng sống sót của gấu bắc cực nếu không ăn thịt:\n\n1. **Thực phẩm thay thế**: Gấu bắc cực có thể ăn một số loại thực vật như quả mọng, rễ cây và tảo biển, nhưng những thực phẩm này không tạo thành phần lớn trong chế độ ăn của chúng. Chúng có thể ăn các loài động vật khác như chim, trứng, gặm nhấm, và một số loài động vật biển như cua và sò.\n\n2. **Khả năng tiêu hóa**: Sinh lý của gấu bắc cực được chuyên hóa để tiêu hóa chất béo từ động vật biển, và chúng không thể lấy nhiều dinh dưỡng từ thực phẩm trên cạn. Điều này có nghĩa là nếu gấu bắc cực không thể ăn thịt, khả năng sống sót của chúng sẽ bị ảnh hưởng nghiêm trọng.\n\n3. **Sự cạnh tranh và môi trường**: Gấu bắc cực không thể cạnh tranh tốt với các loài khác trên đất liền hoặc trong nước, và chúng dễ bị quá nhiệt. Do đó, việc sống sót mà không có nguồn thực phẩm chính là hải cẩu sẽ rất khó khăn.\n\nTóm lại, mặc dù gấu bắc cực có thể ăn một số loại thực phẩm khác ngoài thịt, nhưng chúng phụ thuộc rất nhiều vào chế độ ăn thịt để tồn tại và phát triển.",
+    "expected_answer": "Tôi không tìm thấy thông tin này trong tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "65a046b9-228e-4dcb-b3a6-ad55863cf659",
+      "c7845d17-bff6-478f-9f1c-787ff3a8bcf6",
+      "3650dfa1-33b2-4b62-8a53-996fd6fa3cd9",
+      "e5770760-5414-4995-90f1-827795f4ab75"
+    ],
+    "latency": 14.979661813998973,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu tôi yêu cầu bạn viết một bài thơ về penguin, bạn có thể làm điều đó không?",
+    "agent_response": "Xin lỗi, nhưng tôi không thể sáng tác thơ. Tuy nhiên, tôi có thể cung cấp thông tin về chim cánh cụt (penguin) hoặc giúp bạn tìm hiểu về chúng. Bạn có muốn biết thêm về đặc điểm, môi trường sống hay hành vi của chúng không?",
+    "expected_answer": "Tôi không thể làm điều đó. Tôi chỉ có thể cung cấp thông tin về penguins dựa trên tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 7.492676631001814,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy gửi tôi một đoạn mã lập trình có liên quan đến penguins!",
+    "agent_response": "Xin lỗi, nhưng tôi không tìm thấy thông tin nào liên quan đến đoạn mã lập trình có liên quan đến chim cánh cụt (penguins). Nếu bạn có yêu cầu cụ thể hơn về loại mã hoặc ngôn ngữ lập trình nào, hãy cho tôi biết để tôi có thể hỗ trợ tốt hơn!",
+    "expected_answer": "Tôi không thể làm điều đó. Tôi chỉ có thể cung cấp thông tin về penguins dựa trên tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "05e96a5c-fe1e-467e-8fb7-e950d5f8a34c",
+      "b517dfa6-ab04-46d4-8377-7aba699f8532",
+      "daa7edb2-0ce1-40f6-92c6-4739acd02230",
+      "1119d646-0cf4-4531-91c0-c58e8afbf709"
+    ],
+    "latency": 8.829941423999117,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 1,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 1, 'gpt-4o': 3}. Avg: 2.0"
+    },
+    "status": "fail"
+  },
+  {
+    "question": "Penguins có thể bay không?",
+    "agent_response": "Penguins không thể bay. Thay vì có cánh để bay, cánh của chúng đã phát triển thành vây, giúp chúng bơi lội rất tốt trong nước. Trong khi ở trên cạn, chúng di chuyển bằng cách đi bộ hoặc trượt trên bụng, một hành động gọi là \"tobogganing\".",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "05e96a5c-fe1e-467e-8fb7-e950d5f8a34c",
+      "2af0ac8f-2372-4ca0-99ec-22f2b68ce4f7",
+      "1119d646-0cf4-4531-91c0-c58e8afbf709"
+    ],
+    "latency": 7.729860676001408,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 3}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Tại sao penguins lại có màu trắng trong khi chúng sống ở nhiều vùng khí hậu khác nhau?",
+    "agent_response": "Penguins có màu trắng chủ yếu là do đặc điểm ngụy trang của chúng. Chúng có màu trắng ở phần bụng và màu đen ở phần lưng, điều này giúp chúng ẩn mình khỏi kẻ thù. Khi một kẻ săn mồi nhìn từ dưới lên, phần bụng trắng của penguin khó phân biệt với mặt nước phản chiếu ánh sáng. Ngược lại, màu đen trên lưng giúp chúng ngụy trang khi nhìn từ trên cao.\n\nMặc dù penguins sống ở nhiều vùng khí hậu khác nhau, nhưng màu sắc này vẫn giữ vai trò quan trọng trong việc bảo vệ chúng khỏi các mối đe dọa tự nhiên.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "3fcdeac9-1b2b-437e-b3ee-25e6685e6104",
+      "44207ccd-ef2a-42c8-8bb4-0a85178f1310",
+      "daa7edb2-0ce1-40f6-92c6-4739acd02230"
+    ],
+    "latency": 9.137487693998992,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 2}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có mấy loài penguin tồn tại nếu chúng ta xét cả các giả thuyết khác nhau?",
+    "agent_response": "Hiện tại, tôi không tìm thấy thông tin cụ thể về số lượng loài penguin tồn tại trong cơ sở dữ liệu. Tuy nhiên, theo kiến thức chung, có khoảng 18 loài penguin được công nhận, bao gồm các loài như Emperor Penguin, King Penguin, và Adélie Penguin. Nếu bạn cần thông tin chi tiết hơn về từng loài hoặc các giả thuyết khác nhau liên quan đến penguin, tôi khuyên bạn nên tham khảo các tài liệu chuyên sâu hoặc trang web về động vật.",
+    "expected_answer": "Biodiversity varies between 17 and 20 living species, all in the subfamily Spheniscinae.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "94bc9bb2-9320-452f-967c-068aee1c9795",
+      "bc449ce3-ea28-4ff3-87de-15b7b94a518c",
+      "44207ccd-ef2a-42c8-8bb4-0a85178f1310"
+    ],
+    "latency": 10.564976932000718,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu một penguin sống ở xứ nóng, nó có thể vẫn sống được không?",
+    "agent_response": "Penguins chủ yếu sống ở bán cầu nam và không chỉ giới hạn ở những vùng lạnh như Nam Cực. Một số loài, như Galápagos Penguin, có thể sống ở những vùng nhiệt đới và thậm chí là ở những khu vực ấm áp hơn. \n\nCó ít nhất mười loài penguin sống ở vùng ôn đới, và một số loài nhỏ hơn thường được tìm thấy ở các khí hậu ôn hòa hoặc thậm chí nhiệt đới. Điều này cho thấy rằng, mặc dù nhiều loài penguin thích nghi với môi trường lạnh, nhưng một số loài vẫn có thể tồn tại ở những vùng nóng hơn. \n\nTuy nhiên, việc sống ở xứ nóng có thể không phải là điều lý tưởng cho tất cả các loài penguin, và chúng có thể gặp khó khăn trong việc duy trì nhiệt độ cơ thể và tìm kiếm thức ăn trong môi trường này.",
+    "expected_answer": "Có ít nhất 10 species sống ở vùng ôn hòa, và một loài sống cách phía Bắc đến Galápagos Islands.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "3fcdeac9-1b2b-437e-b3ee-25e6685e6104",
+      "bc449ce3-ea28-4ff3-87de-15b7b94a518c",
+      "d7ea7e7c-4534-41de-b9e2-851332190897",
+      "696d50c2-e8f9-4a86-a57c-f70c9b5b1c21",
+      "8dc9a73e-c13b-4e9c-94a8-7d4b1d2a0a4b"
+    ],
+    "latency": 10.469248432000313,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Bạn có thể viết một bài thơ về sự mạnh mẽ của chó sói không?",
+    "agent_response": "Chó sói, hoang dã giữa rừng xanh,\nMắt sáng như sao, lấp lánh ánh trăng.\nBước chân nhẹ nhàng, lặng lẽ băng qua,\nChúa tể của đêm, giữa muôn vàn hoa.\n\nGió thổi vi vu, tiếng hú vang vọng,\nKhúc ca của núi, hòa cùng dòng sông.\nSát cánh bên nhau, bầy đàn kiên cường,\nTình bạn bền chặt, vượt mọi thử thách.\n\nSự mạnh mẽ ấy, không chỉ ở sức,\nMà còn ở tâm, ở lòng kiên định.\nChó sói dũng cảm, không bao giờ lùi,\nGiữa bão tố, vẫn vững vàng, kiêu hùng.\n\nHãy ngắm nhìn chúng, giữa trời bao la,\nBiểu tượng của tự do, của sức mạnh xa.\nChó sói, hoang dã, nhưng đầy tình thương,\nMột linh hồn tự do, mãi mãi trường tồn.",
+    "expected_answer": "Tôi không thể thực hiện yêu cầu này, mà tôi chỉ có thể cung cấp thông tin về động vật.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 8.634314467002696,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 1
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 1}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy cho tôi biết chó sói có thể phát triển ra sao trong khi tìm kiếm thức ăn cho gia đình chúng.",
+    "agent_response": "Chó sói có những phương pháp phát triển và chiến lược khi tìm kiếm thức ăn cho gia đình của chúng. Dưới đây là một số điểm chính:\n\n1. **Hành vi săn bắn theo bầy**: Chó sói thường săn theo bầy để bắt các động vật ăn cỏ lớn. Hành vi săn bắn này yêu cầu sự hợp tác chặt chẽ giữa các thành viên trong bầy, vì việc bắt một con mồi lớn đòi hỏi nhiều nỗ lực và chiến thuật. Tuy nhiên, tỷ lệ thành công trong việc bắt mồi lớn thường rất thấp, vì vậy chó sói sẽ chỉ theo đuổi một con mồi trong khoảng 1000 mét trước khi từ bỏ và tìm kiếm con mồi khác.\n\n2. **Chế độ ăn uống**: Khi đã bắt được mồi, chó sói thường ăn các bộ phận như nội tạng và chân sau của con mồi. Chúng cũng có thể mang theo một số phần của con mồi về tổ. Hành vi này không chỉ giúp cung cấp thức ăn cho chó sói mà còn cho cả gia đình của chúng, đặc biệt là cho những con non.\n\n3. **Săn mồi đơn lẻ**: Trong trường hợp chó sói đơn độc, chúng thường săn các động vật nhỏ hơn. Kỹ thuật săn mồi này bao gồm việc nhảy và giữ chặt con mồi bằng chân trước, một phương pháp cũng được sử dụng bởi các loài canid khác như cáo và coyote.\n\nNhững chiến lược này cho phép chó sói phát triển và duy trì sự sống cho gia đình của chúng trong môi trường hoang dã.",
+    "expected_answer": "Tôi không thể cung cấp thông tin về câu hỏi này, vì nó không liên quan đến tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "f39fdb03-6388-45ff-962f-fea5b9356469",
+      "0d64c93f-84a3-4385-a3e7-01ad70ca40ba",
+      "ece236b3-f578-4bff-a6cd-620f3a9b4d05",
+      "a4e0fe0b-80d4-4eee-8a61-7acc5cf30423",
+      "db77f155-6bb7-4b72-b152-b11c583f6f07"
+    ],
+    "latency": 11.73383782900055,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 2}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Chó sói nặng bao nhiêu kg ở bắc cực so với chó sói ở sa mạc?",
+    "agent_response": "Chó sói (gray wolf) có trọng lượng thay đổi tùy theo khu vực sống. Theo quy luật Bergmann, trọng lượng của chó sói thường tăng theo độ vĩ độ. Cụ thể, chó sói có thể nặng từ 32 đến 62 kg (70 đến 135 pounds) ở nhiều nơi trên thế giới. Tuy nhiên, những cá thể cực lớn có thể nặng hơn 77 kg (170 pounds) đã được ghi nhận ở Alaska và Canada.\n\nVề chó sói ở Bắc Cực, không có thông tin cụ thể về trọng lượng của chúng trong tài liệu tìm được, nhưng có thể suy luận rằng chúng có thể nặng tương tự hoặc nặng hơn so với chó sói ở các khu vực khác do điều kiện sống khắc nghiệt.\n\nTóm lại, chó sói ở Bắc Cực có thể nặng từ 32 đến 62 kg, tương tự như chó sói ở sa mạc, nhưng có thể có những cá thể nặng hơn ở Bắc Cực.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0be6b2b8-28b7-47a6-a0b1-f5920ac5820c",
+      "dc1c2283-1a29-4ca9-ad7f-1474e01526cf",
+      "0afd2048-6101-459a-9f30-e045b48cace6",
+      "07cd9aca-e842-4d67-a030-41094603af73"
+    ],
+    "latency": 10.702928377999342,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Màu sắc của bộ lông chó sói thay đổi thế nào vào mùa đông?",
+    "agent_response": "Bộ lông của chó sói có màu sắc rất đa dạng, từ xám đến nâu xám, và có thể bao gồm các màu trắng, đỏ, nâu và đen. Màu sắc này thường thay đổi tùy thuộc vào môi trường sống của chúng. Ví dụ, những con chó sói có màu trắng thường phổ biến hơn ở những khu vực có tuyết phủ quanh năm. \n\nVào mùa đông, chó sói có thể có bộ lông sáng hơn để phù hợp với môi trường tuyết, giúp chúng ngụy trang tốt hơn. Ngoài ra, khi chó sói già đi, bộ lông của chúng có thể xuất hiện màu xám hơn. \n\nTóm lại, màu sắc bộ lông của chó sói vào mùa đông có thể trở nên sáng hơn, đặc biệt là ở những khu vực có tuyết, để hỗ trợ cho việc ngụy trang.",
+    "expected_answer": "Bộ lông chó sói thay đổi từ màu xám sang màu khác, nhưng cụ thể thì không được đề cập trong tài liệu.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "95b456eb-303f-4789-879c-8ce76a76514d",
+      "1fbb61f8-4734-4a07-896e-890663b62e2c",
+      "2de9022e-673d-4c1b-8086-782da49a33d8"
+    ],
+    "latency": 9.246676743001444,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu một con chó sói khổng lồ giao phối với một con chó Sói Ả Rập, con con sẽ có kích thước như thế nào?",
+    "agent_response": "Dựa trên thông tin tìm được, kích thước của chó sói (Gray Wolf) thường dao động từ 0.6 đến 0.95 mét (26 đến 38 inch) ở vai và trọng lượng từ 32 đến 62 kg (70 đến 135 pounds). Một số cá thể cực đại có thể nặng hơn 77 kg (170 pounds) ở Alaska và Canada.\n\nVề chó sói Ả Rập, thông tin cụ thể về kích thước không được tìm thấy, nhưng chó sói Ả Rập thường nhỏ hơn so với các loài chó sói khác.\n\nNếu một con chó sói khổng lồ (có thể hiểu là một cá thể lớn hơn nhiều so với kích thước trung bình) giao phối với một con chó sói Ả Rập, con con có thể có kích thước nằm giữa kích thước của hai loài này. Tuy nhiên, do không có thông tin cụ thể về kích thước của chó sói Ả Rập, rất khó để đưa ra một con số chính xác. \n\nTóm lại, con con có thể có kích thước từ khoảng 0.6 mét đến 1 mét (hoặc hơn) và trọng lượng có thể dao động từ 30 kg đến 70 kg, tùy thuộc vào di truyền từ cả hai bố mẹ.",
+    "expected_answer": "Đó là một giả thuyết mâu thuẫn và không thể xác định được kích thước của con con vì không có thông tin.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "f05e9625-1f38-4823-b6ac-17c26c33c28c",
+      "38250b16-6def-49d8-9f52-88a33dac3bde",
+      "eb4d7115-d81c-481c-9474-70d36af6a2ac",
+      "9c75ba85-d47e-457d-adae-52e06e349955",
+      "0be6b2b8-28b7-47a6-a0b1-f5920ac5820c",
+      "5c1186bc-f9f2-4b97-89b2-4dca144a74bb",
+      "dc1c2283-1a29-4ca9-ad7f-1474e01526cf",
+      "0afd2048-6101-459a-9f30-e045b48cace6",
+      "b911b8da-f626-4779-a60d-0573648083c4"
+    ],
+    "latency": 14.460240120999515,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy giải thích về cách chó sói sinh tồn trong rừng, mỗi ngày có khoảng 10 con mồi?",
+    "agent_response": "Chó sói (Gray Wolf) là loài động vật săn mồi hàng đầu trong hệ sinh thái mà chúng sống, và chúng có khả năng sinh tồn rất tốt trong các môi trường như rừng, núi, và đồng cỏ. Dưới đây là một số điểm chính về cách chó sói sinh tồn trong rừng, đặc biệt khi có khoảng 10 con mồi mỗi ngày:\n\n1. **Vai trò là động vật săn mồi hàng đầu**: Chó sói đóng vai trò quan trọng trong việc duy trì sự cân bằng sinh thái. Chúng giúp kiểm soát số lượng các loài động vật khác, như hươu, và khi số lượng hươu giảm, điều này tạo điều kiện cho các loài khác như gấu và cáo có cơ hội sinh sản tốt hơn.\n\n2. **Tổ chức xã hội**: Chó sói sống theo bầy đàn, điều này giúp chúng phối hợp trong việc săn mồi. Sự hợp tác trong bầy đàn cho phép chó sói săn những con mồi lớn hơn và hiệu quả hơn, từ đó tăng khả năng thành công trong việc kiếm ăn.\n\n3. **Khả năng thích nghi**: Chó sói có khả năng thích nghi với nhiều loại môi trường khác nhau, từ rừng đến đồng cỏ và núi. Điều này cho phép chúng tìm kiếm thức ăn và sinh sống ở nhiều nơi khác nhau.\n\n4. **Chiến lược săn mồi**: Khi có khoảng 10 con mồi mỗi ngày, chó sói có thể sử dụng các chiến lược săn mồi khác nhau, từ việc theo dõi và phục kích cho đến việc săn theo bầy. Chúng có thể chia sẻ thức ăn trong bầy, giúp đảm bảo rằng tất cả các thành viên đều có đủ dinh dưỡng.\n\n5. **Nguy cơ và thách thức**: Mặc dù chó sói là động vật săn mồi hàng đầu, chúng cũng phải đối mặt với nhiều mối đe dọa từ các loài động vật khác và con người. Sự cạnh tranh với các loài như hổ Siberia có thể làm giảm số lượng chó sói trong một số khu vực.\n\nTóm lại, chó sói sinh tồn trong rừng nhờ vào khả năng săn mồi hiệu quả, tổ chức xã hội chặt chẽ, và khả năng thích nghi với môi trường sống.",
+    "expected_answer": "Điều này quá phức tạp và yêu cầu tổng hợp thông tin từ nhiều khía cạnh. Tôi không có đủ thông tin.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "669a2298-beca-4a1f-98e0-1039027565da",
+      "cb6650cc-fb2c-4bdf-aa04-2368f38a1cb5",
+      "56eb2aa3-474f-4ad1-8f0c-0a79264275bd",
+      "5710c338-b490-437c-a4b4-e4751ecbafaa",
+      "ace1dfff-1f16-4661-be7c-d1a5a8a19324",
+      "6af3bd2b-e74d-4dfa-a154-a038402de1db"
+    ],
+    "latency": 17.224163491999207,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 2}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Mức độ nguy hiểm của loài vịt trong giữa cuộc săn bắn có thể so với những loại động vật nào khác như sư tử hay đại bàng không?",
+    "agent_response": "Dựa trên thông tin tìm được, mức độ nguy hiểm của loài vịt trong bối cảnh săn bắn không thể so sánh trực tiếp với các loài động vật như sư tử hay đại bàng. \n\n1. **Vịt**: Thông tin cụ thể về mức độ nguy hiểm của vịt trong săn bắn không được tìm thấy. Tuy nhiên, vịt thường được coi là một con mồi dễ dàng cho các thợ săn, không có khả năng tự vệ mạnh mẽ như các loài động vật lớn hơn.\n\n2. **Sư tử**: Sư tử là một trong những loài động vật săn mồi hàng đầu, có khả năng tấn công và giết chết con mồi lớn. Chúng có sức mạnh và kỹ năng săn mồi vượt trội, khiến chúng trở thành một trong những loài nguy hiểm nhất trong tự nhiên.\n\n3. **Đại bàng**: Đại bàng cũng là một loài săn mồi, nhưng chúng chủ yếu săn các loài động vật nhỏ hơn. Mặc dù không nguy hiểm như sư tử, nhưng đại bàng có thể gây ra thương tích cho con mồi của chúng bằng cách sử dụng móng vuốt sắc nhọn.\n\nTóm lại, vịt không có mức độ nguy hiểm tương tự như sư tử hay đại bàng trong bối cảnh săn bắn. Vịt thường là con mồi dễ dàng, trong khi sư tử và đại bàng là những kẻ săn mồi có khả năng tấn công mạnh mẽ hơn.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "789042ba-02ed-4c24-85be-97907be7262c",
+      "67c0ae37-34f3-434f-9102-d2367983baec",
+      "db5667ad-999d-4d32-9b95-c4927437a24a",
+      "5b536530-1cd3-48e9-954f-cb40986ccabf",
+      "1e77c427-0788-4fc5-a557-85c5769d7f5e"
+    ],
+    "latency": 24.00303748999795,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Ta có nên kết hợp thông tin về vịt với các loài khác trong cùng một bài thơ không?",
+    "agent_response": "Việc kết hợp thông tin về vịt với các loài khác trong cùng một bài thơ là hoàn toàn khả thi và có thể mang lại nhiều giá trị nghệ thuật. Dưới đây là một số lý do:\n\n1. **Tính Đa Dạng**: Kết hợp nhiều loài động vật trong một bài thơ có thể tạo ra một bức tranh sinh động về thế giới tự nhiên, giúp người đọc cảm nhận được sự phong phú và đa dạng của cuộc sống.\n\n2. **Biểu Tượng và Ý Nghĩa**: Mỗi loài động vật thường mang những biểu tượng và ý nghĩa riêng. Ví dụ, vịt có thể đại diện cho sự bình yên và giản dị, trong khi các loài khác như hổ có thể biểu trưng cho sức mạnh và sự dũng cảm. Sự kết hợp này có thể tạo ra những thông điệp sâu sắc hơn.\n\n3. **Sự Liên Kết**: Việc kết hợp các loài động vật có thể tạo ra những mối liên hệ thú vị giữa chúng, từ đó khơi gợi trí tưởng tượng và cảm xúc của người đọc.\n\n4. **Cảm Hứng Nghệ Thuật**: Nhiều nền văn hóa đã sử dụng hình ảnh của các loài động vật trong nghệ thuật và văn học. Ví dụ, người Moche ở Peru đã thể hiện vịt trong nghệ thuật của họ, cho thấy sự kết nối giữa con người và thiên nhiên.\n\nTóm lại, việc kết hợp thông tin về vịt với các loài khác trong một bài thơ không chỉ là một ý tưởng sáng tạo mà còn có thể làm phong phú thêm nội dung và ý nghĩa của tác phẩm.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "7b981903-f8e7-48bf-8864-b4dee9dbfc03",
+      "264495ae-015b-417e-aac3-94ac862b0ade",
+      "7b8891d5-d724-49fd-b19e-b61c4ce3a1da",
+      "0618983e-fb0f-472d-a550-e972ac137f22",
+      "c2b5db0b-cbef-4d25-8a97-c1ae5a537eac",
+      "00803db8-e6e0-4a92-99ff-679bf111d1ff",
+      "49d72e96-80cf-4ea7-ba4c-61d48e525a1a"
+    ],
+    "latency": 14.667884544000117,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 2}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu một con vịt có thể nói, nó sẽ viết một bài thơ về mùa hè, bạn nghĩ nó sẽ bắt đầu như thế nào?",
+    "agent_response": "Tôi không tìm thấy thông tin cụ thể về một bài thơ mà một con vịt có thể viết về mùa hè. Tuy nhiên, nếu một con vịt có thể nói và viết thơ, nó có thể bắt đầu như sau:\n\n---\n\n**Mùa hè rực rỡ**\n\nTrong ánh nắng vàng rực rỡ,  \nTôi bơi lội giữa dòng nước trong,  \nCánh quạt vẫy vùng, vui tươi,  \nMùa hè đến, lòng tôi rộn ràng.\n\n---\n\nĐây chỉ là một ví dụ về cách mà một con vịt có thể diễn đạt cảm xúc của nó về mùa hè. Nếu bạn cần thêm thông tin hoặc một phong cách khác, hãy cho tôi biết!",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "444563a7-a274-4be8-847d-144c76f2e7cf",
+      "b832f8c9-f676-41af-8c30-92d7e3ebfd91",
+      "412041fd-89ac-4857-b934-aa7701d70fd5",
+      "c7b0168b-829e-4dac-8008-6282942c3cc4",
+      "4883db9c-2560-45ac-9cc0-fd1699aa6dc7",
+      "55ff4fa0-f0d2-42f3-a6f8-929d0670a34f"
+    ],
+    "latency": 6.270752925000124,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Tại sao một số vịt có thể bay và một số khác không? Ai đã quyết định điều đó?",
+    "agent_response": "Một số vịt có khả năng bay trong khi một số khác không, chủ yếu do sự khác biệt trong cấu trúc cơ thể và thói quen sinh hoạt của chúng. \n\n1. **Khả năng bay**: Các loài vịt như vịt lặn (diving ducks) thường nặng hơn và có cơ thể được thiết kế để lặn sâu dưới nước, điều này khiến chúng gặp khó khăn hơn trong việc cất cánh bay. Ngược lại, các loài vịt như vịt lướt (dabbling ducks) thường nhẹ hơn và có thể bay dễ dàng hơn vì chúng chủ yếu kiếm ăn trên mặt nước hoặc trên đất liền.\n\n2. **Thời gian không bay**: Nhiều loài vịt cũng có thể trở nên tạm thời không bay trong thời gian thay lông (moult), khi chúng cần tìm nơi trú ẩn an toàn và có nguồn thức ăn dồi dào. Thời gian này thường diễn ra trước mùa di cư.\n\n3. **Quyết định về khả năng bay**: Khả năng bay của vịt không phải do một cá nhân hay tổ chức nào quyết định, mà là kết quả của quá trình tiến hóa tự nhiên. Các yếu tố như môi trường sống, nhu cầu sinh tồn và sự thích nghi đã dẫn đến sự phát triển khác nhau trong khả năng bay của các loài vịt.\n\nTóm lại, khả năng bay của vịt phụ thuộc vào nhiều yếu tố sinh học và môi trường, không phải do một ai đó quyết định.",
+    "expected_answer": "Một số loài vịt, đặc biệt là trong Northern Hemisphere, là loài di cư, trong khi các loài khác không.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "05e96a5c-fe1e-467e-8fb7-e950d5f8a34c",
+      "3558e802-01a5-4273-9ca5-30c9fb747627",
+      "a6736661-f754-4669-ac5e-2e0585b04887",
+      "cf2cdeaf-7a7f-405f-b88c-99cc336e21ef",
+      "16e5d4b0-540a-439c-8785-15c5936bf4de",
+      "85455611-5533-42f9-a830-136ec02f0cf5",
+      "16b7f503-ce81-457c-a9c8-bcd8f9a40a22",
+      "1e77c427-0788-4fc5-a557-85c5769d7f5e"
+    ],
+    "latency": 11.900827943998593,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Loài vịt nào có khả năng chống lại các mối nguy hiểm từ tự nhiên tốt nhất? Bạn có thể chỉ ra một ví dụ không?",
+    "agent_response": "Ducks có khả năng chống lại một số mối nguy hiểm từ tự nhiên, nhưng chúng cũng phải đối mặt với nhiều kẻ thù tự nhiên. Một số loài vịt có thể bay nhanh và tránh được nhiều kẻ săn mồi trên không, nhưng vịt con thì rất dễ bị tổn thương do không thể bay và thường trở thành con mồi cho các loài chim săn mồi và cá lớn.\n\nMột ví dụ điển hình về loài vịt có khả năng chống lại mối nguy hiểm là vịt trời (Mallard). Vịt trời có khả năng bay nhanh và di chuyển linh hoạt, giúp chúng tránh được nhiều kẻ thù. Tuy nhiên, vịt con vẫn rất dễ bị săn đuổi bởi các loài động vật như cáo, diều hâu và các loài cá lớn trong môi trường nước.\n\nTóm lại, mặc dù vịt có một số khả năng để chống lại các mối nguy hiểm tự nhiên, nhưng chúng vẫn phải đối mặt với nhiều thách thức, đặc biệt là trong giai đoạn vịt con.",
+    "expected_answer": "Loài vịt con rất dễ bị tổn thương do không thể bay.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "789042ba-02ed-4c24-85be-97907be7262c",
+      "b832f8c9-f676-41af-8c30-92d7e3ebfd91",
+      "83fe07aa-9f88-4bd5-af27-c02c59308da3",
+      "10d0e034-540e-4bd5-8cac-317409d1ccf0",
+      "bd619074-1a41-4fbd-a61d-560e47b17ad2",
+      "15c49367-1276-4203-919d-e7bcbda452be"
+    ],
+    "latency": 12.109707850999257,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Nếu bạn phải giải thích cách mà các loài vịt có nguồn gốc từ con vịt Mallard Anas platyrhynchos, điều gì sẽ xảy ra với các loài không phải từ nó?",
+    "agent_response": "Các loài vịt chủ yếu có nguồn gốc từ vịt Mallard (Anas platyrhynchos), với tất cả các giống vịt nhà đều xuất phát từ loài này, ngoại trừ vịt Muscovy. Điều này có nghĩa là vịt Mallard đóng vai trò quan trọng trong việc phát triển các giống vịt domesticated mà chúng ta thấy ngày nay.\n\nĐối với các loài vịt không phải từ Mallard, như vịt Muscovy, chúng có nguồn gốc khác và không liên quan trực tiếp đến vịt Mallard. Vịt Muscovy (Cairina moschata) là một loài khác biệt, có nguồn gốc từ Nam Mỹ và không thuộc về chi Anas, mà thuộc về chi riêng của nó. Điều này cho thấy rằng sự tiến hóa và phát triển của các loài vịt có thể diễn ra độc lập, dẫn đến sự đa dạng trong các đặc điểm và hành vi của chúng.\n\nTóm lại, vịt Mallard là tổ tiên chung của hầu hết các loài vịt nhà, trong khi các loài khác như vịt Muscovy có nguồn gốc riêng và không liên quan đến vịt Mallard.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "46c8a46e-88ed-4419-92bd-b89b29f48629",
+      "f969254c-2582-4e36-90c4-5be624f512f4",
+      "753d86a1-9a67-4ffb-b445-196d1607641b",
+      "d79eed5b-b766-457a-9ec9-f8aab0405ba9",
+      "21c5fa6d-0e24-423c-b2c8-7717494ca132"
+    ],
+    "latency": 10.879994327999157,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Người ta có thể nuôi báo đen như thú cưng không?",
+    "agent_response": "Nuôi báo đen (hay còn gọi là báo đen) như thú cưng không phải là một lựa chọn khả thi và an toàn. Dưới đây là một số lý do:\n\n1. **Tính cách hoang dã**: Báo đen là một loài động vật hoang dã thuộc họ mèo lớn (Felidae) và có bản năng săn mồi mạnh mẽ. Chúng có thể tấn công con người nếu cảm thấy bị đe dọa hoặc trong tình huống không an toàn.\n\n2. **Kích thước và sức mạnh**: Là một trong bốn loài mèo lớn, báo đen có kích thước lớn và sức mạnh vượt trội, điều này khiến chúng trở thành những động vật khó kiểm soát trong môi trường nuôi nhốt.\n\n3. **Yêu cầu về không gian và môi trường**: Báo đen cần một không gian sống rộng lớn và môi trường tự nhiên để phát triển và sinh hoạt. Việc nuôi nhốt chúng trong không gian hạn chế có thể gây ra stress và các vấn đề sức khỏe.\n\n4. **Luật pháp**: Ở nhiều nơi, việc nuôi các loài động vật hoang dã như báo đen có thể bị cấm hoặc yêu cầu giấy phép đặc biệt. \n\nVì vậy, việc nuôi báo đen như thú cưng không chỉ khó khăn mà còn có thể gây nguy hiểm cho cả người nuôi và động vật.",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "67c0ae37-34f3-434f-9102-d2367983baec",
+      "96914e53-6b42-411c-9437-ac7ea78444b2",
+      "5c52ee02-d6b3-47de-bb9c-81abf0419926",
+      "1fbb61f8-4734-4a07-896e-890663b62e2c",
+      "95761fa4-9b62-466d-854c-38b99ea66e12",
+      "4ac52faf-e2e9-4398-b5ca-1ed8d3633360",
+      "a3040d14-601f-4f10-b90c-b0646eb30153"
+    ],
+    "latency": 12.725135967000824,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.0,
+      "individual_scores": {
+        "gpt-4o-mini": 5,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 5, 'gpt-4o': 2}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Báo có thể sống lâu hơn 21 năm không, ví dụ như 25 năm?",
+    "agent_response": "Tôi không tìm thấy thông tin nào liên quan đến tuổi thọ của báo trong cơ sở dữ liệu hiện có. Do đó, tôi không thể xác nhận liệu báo có thể sống lâu hơn 21 năm, chẳng hạn như 25 năm hay không. Nếu bạn có câu hỏi khác hoặc cần thông tin về chủ đề khác, hãy cho tôi biết!",
+    "expected_answer": "Tôi không biết.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [],
+    "latency": 15.274294205002661,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Cho tôi biết cách làm thơ về vẻ đẹp của loài báo?",
+    "agent_response": "Tôi không tìm thấy thông tin cụ thể về cách làm thơ về vẻ đẹp của loài báo trong cơ sở dữ liệu hiện có. Tuy nhiên, tôi có thể gợi ý cho bạn một số ý tưởng để viết thơ về loài báo:\n\n1. **Mô tả hình dáng**: Bạn có thể bắt đầu bằng cách mô tả vẻ đẹp của bộ lông báo, với những đốm đen trên nền vàng hoặc cam, tạo nên sự quyến rũ và bí ẩn.\n\n2. **Tính cách**: Nói về sự mạnh mẽ, nhanh nhẹn và tinh ranh của loài báo, thể hiện qua những cú nhảy và cách săn mồi.\n\n3. **Môi trường sống**: Đưa vào thơ hình ảnh của rừng rậm, nơi báo sống, với những âm thanh của thiên nhiên xung quanh.\n\n4. **Biểu tượng văn hóa**: Nếu có thể, bạn có thể tham khảo các biểu tượng văn hóa liên quan đến loài báo trong các nền văn hóa khác nhau.\n\n5. **Cảm xúc**: Cuối cùng, hãy thể hiện cảm xúc của bạn về loài báo, có thể là sự ngưỡng mộ, sự tôn trọng hay sự yêu thích.\n\nHy vọng những gợi ý này sẽ giúp bạn sáng tác một bài thơ hay về vẻ đẹp của loài báo!",
+    "expected_answer": "Tôi không thể làm thơ. Tôi chỉ có thể cung cấp thông tin về báo.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "ff31120a-6d32-4255-9676-85450f1b15f0",
+      "76264f61-6f4a-4ff0-80a6-eab52c0cb5fd",
+      "17eb049b-8bbb-45d7-b770-9dfaee92699a",
+      "fa8b1fd3-6082-4ec0-ac4f-c6fa9cfa848c",
+      "778a4b01-c5ac-4b6c-a3bd-f3990518e0da",
+      "be8bb408-22a4-489c-b6af-daa1268858ec",
+      "49d72e96-80cf-4ea7-ba4c-61d48e525a1a"
+    ],
+    "latency": 14.048847621997993,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 3}. Avg: 3.5"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Giả sử rằng tất cả các loài báo đều là màu đen, liệu có phải báo sẽ trở thành động vật nguy cấp không?",
+    "agent_response": "Dựa trên các tài liệu tìm được, không có thông tin cụ thể nào đề cập đến việc báo (có thể là báo đen) sẽ trở thành động vật nguy cấp nếu tất cả các loài báo đều có màu đen. Tuy nhiên, có một số yếu tố có thể ảnh hưởng đến tình trạng bảo tồn của một loài động vật, bao gồm:\n\n1. **Môi trường sống**: Nếu màu sắc của báo không phù hợp với môi trường sống của chúng, điều này có thể ảnh hưởng đến khả năng sinh tồn và săn mồi, từ đó có thể dẫn đến nguy cơ tuyệt chủng.\n\n2. **Săn bắn và buôn bán**: Nếu báo đen trở thành mục tiêu của săn bắn hoặc buôn bán trái phép do sự hiếm có của chúng, điều này cũng có thể làm tăng nguy cơ tuyệt chủng.\n\n3. **Biến đổi khí hậu và mất môi trường sống**: Những yếu tố này có thể ảnh hưởng đến tất cả các loài động vật, bao gồm cả báo, bất kể màu sắc của chúng.\n\nTóm lại, việc báo có trở thành động vật nguy cấp hay không phụ thuộc vào nhiều yếu tố khác nhau, không chỉ đơn thuần là màu sắc của chúng. Nếu bạn cần thông tin chi tiết hơn về một loài báo cụ thể hoặc các yếu tố bảo tồn, hãy cho tôi biết!",
+    "expected_answer": "Không, điều này không đúng vì màu sắc không liên quan đến tình trạng bảo tồn của các loài báo.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "7e1b7b1b-457e-44d7-b1fb-049606bacbd1",
+      "789042ba-02ed-4c24-85be-97907be7262c",
+      "669a2298-beca-4a1f-98e0-1039027565da",
+      "c0bd6413-9aee-495c-bcee-ec9f42a7fc98",
+      "03af3511-6a48-4a0d-91c5-2727feb219b6",
+      "ae140454-f87c-4cff-9b98-befbf8db332f",
+      "dfaad928-50db-4aba-b073-1070762f0076",
+      "b34ea354-13c5-4eac-97a2-f783639f982a",
+      "999cc2f5-72f4-4783-b963-a0d372003c5f"
+    ],
+    "latency": 12.915125859999534,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 3,
+        "gpt-4o": 3
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 3, 'gpt-4o': 3}. Avg: 3.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Hãy giải thích lý do tại sao báo lại có thể sống ở nhiều môi trường sống khác nhau.",
+    "agent_response": "Báo (Panthera pardus) có khả năng sống ở nhiều môi trường khác nhau nhờ vào một số yếu tố chính sau:\n\n1. **Khả năng thích nghi**: Báo là loài động vật có khả năng thích nghi cao với các điều kiện môi trường khác nhau, từ rừng rậm, savanna đến núi đá. Chúng có thể điều chỉnh hành vi săn mồi và nơi ở tùy thuộc vào môi trường sống.\n\n2. **Chế độ ăn đa dạng**: Báo là loài ăn thịt và có thể săn nhiều loại con mồi khác nhau, từ động vật nhỏ đến lớn. Điều này giúp chúng tồn tại trong nhiều hệ sinh thái khác nhau, nơi có sự phong phú về loài.\n\n3. **Kỹ năng săn mồi**: Với khả năng leo trèo và ẩn nấp tốt, báo có thể săn mồi hiệu quả trong các khu rừng rậm cũng như trong các khu vực mở. Kỹ năng này cho phép chúng khai thác nguồn thức ăn phong phú hơn.\n\n4. **Tính lãnh thổ**: Báo thường thiết lập lãnh thổ riêng, giúp chúng kiểm soát nguồn thức ăn và bảo vệ bản thân khỏi các loài săn mồi khác. Điều này cũng cho phép chúng sống trong các khu vực có mật độ dân số động vật khác nhau.\n\nNhờ vào những đặc điểm này, báo có thể tồn tại và phát triển trong nhiều môi trường sống khác nhau trên toàn cầu.",
+    "expected_answer": "Báo có khả năng thích nghi tốt với nhiều loại môi trường sống, từ rừng mưa đến sa mạc.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "60186695-23ce-48e9-9f6f-e5f74c2582b2",
+      "b832f8c9-f676-41af-8c30-92d7e3ebfd91",
+      "c1f79bbc-25c4-45f6-9e3a-47d240b64172",
+      "ad437a57-c4fe-4d03-b782-5731c24dfc05",
+      "5021da2c-b7c7-4744-a7ca-0b3fd88e8fb6",
+      "cb6650cc-fb2c-4bdf-aa04-2368f38a1cb5",
+      "5282c0a4-bfd2-4991-9cfb-cdaaaa145026",
+      "d7ea7e7c-4534-41de-b9e2-851332190897",
+      "d79eed5b-b766-457a-9ec9-f8aab0405ba9",
+      "bcba9d6b-bede-4691-bdda-69dfaf8a6170"
+    ],
+    "latency": 16.612569035998604,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini": 4,
+        "gpt-4o": 4
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 4, 'gpt-4o': 4}. Avg: 4.0"
+    },
+    "status": "pass"
+  },
+  {
+    "question": "Có rất nhiều thông tin mâu thuẫn về kích thước của các loài báo, liệu báo có thực sự lớn hơn hổ không?",
+    "agent_response": "Dựa trên thông tin tìm được, không có dữ liệu trực tiếp so sánh kích thước giữa báo và hổ. Tuy nhiên, có một số thông tin liên quan đến kích thước của các loài động vật lớn khác như gấu Bắc Cực và gấu Kodiak, cho thấy rằng những loài này có thể lớn hơn cả hổ.\n\n1. **Gấu Bắc Cực**: Gấu Bắc Cực (Ursus maritimus) là một trong những loài động vật ăn thịt trên cạn lớn nhất, với trọng lượng của con đực trưởng thành dao động từ 350 đến 650 kg (770 đến 1500 lb) và chiều dài từ 2.5 đến 3.0 m (8.2 đến 9.8 ft).\n\n2. **Gấu Kodiak**: Cũng tương tự như gấu Bắc Cực, gấu Kodiak cũng là một trong những loài lớn nhất, với trọng lượng tương tự.\n\nMặc dù không có thông tin cụ thể về kích thước của báo và hổ trong tài liệu, nhưng có thể suy luận rằng hổ (đặc biệt là hổ Siberia) có thể nặng từ 180 đến 320 kg (400 đến 700 lb) và dài khoảng 2.3 m (7.5 ft) tính cả đuôi. Do đó, hổ thường nhỏ hơn so với gấu Bắc Cực và gấu Kodiak.\n\nNếu bạn cần thông tin cụ thể hơn về kích thước của báo và hổ, có thể cần tìm kiếm thêm tài liệu khác.",
+    "expected_answer": "Không, báo nhỏ hơn hổ.",
+    "expected_retrieval_ids": [],
+    "retrieved_ids": [
+      "0be6b2b8-28b7-47a6-a0b1-f5920ac5820c",
+      "5c1186bc-f9f2-4b97-89b2-4dca144a74bb",
+      "7ff7b4bd-409f-4aaf-ace0-354e1d05aa8e"
+    ],
+    "latency": 11.800426593003067,
+    "ragas": {
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "retrieval": {
+        "hit_rate": 0.0,
+        "mrr": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini": 1,
+        "gpt-4o": 2
+      },
+      "reasoning": "Model scores: {'gpt-4o-mini': 1, 'gpt-4o': 2}. Avg: 1.5"
+    },
+    "status": "fail"
+  }
+]
